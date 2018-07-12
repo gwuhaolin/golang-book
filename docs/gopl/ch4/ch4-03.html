@@ -1,0 +1,5371 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Map · Golang 学习资料</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="吴浩麟">
+        <meta name="identifier" content="9787121331725" scheme="ISBN">
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="ch4-04.html" />
+    
+    
+    <link rel="prev" href="ch4-02.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../the-way-to-go/">
+            
+                <a href="../../the-way-to-go/">
+            
+                    
+                    Go入门指南
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../the-way-to-go/eBook/preface.html">
+            
+                <a href="../../the-way-to-go/eBook/preface.html">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" >
+            
+                <span>
+            
+                    
+                    第一部分：学习 Go 语言
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1" >
+            
+                <span>
+            
+                    
+                    第1章：Go 语言的起源，发展与普及
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1.1" data-path="../../the-way-to-go/eBook/01.1.html">
+            
+                <a href="../../the-way-to-go/eBook/01.1.html">
+            
+                    
+                    起源与发展
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1.1.1" data-path="../../the-way-to-go/eBook/01.2.html">
+            
+                <a href="../../the-way-to-go/eBook/01.2.html">
+            
+                    
+                    语言的主要特性与发展的环境和影响因素
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.2" >
+            
+                <span>
+            
+                    
+                    第2章：安装与运行环境
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.2.1" data-path="../../the-way-to-go/eBook/02.1.html">
+            
+                <a href="../../the-way-to-go/eBook/02.1.html">
+            
+                    
+                    平台与架构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.2.2" data-path="../../the-way-to-go/eBook/02.2.html">
+            
+                <a href="../../the-way-to-go/eBook/02.2.html">
+            
+                    
+                    Go 环境变量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.2.3" data-path="../../the-way-to-go/eBook/02.3.html">
+            
+                <a href="../../the-way-to-go/eBook/02.3.html">
+            
+                    
+                    在 Linux 上安装 Go
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.2.4" data-path="../../the-way-to-go/eBook/02.4.html">
+            
+                <a href="../../the-way-to-go/eBook/02.4.html">
+            
+                    
+                    在 Mac OS X 上安装 Go
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.2.5" data-path="../../the-way-to-go/eBook/02.5.html">
+            
+                <a href="../../the-way-to-go/eBook/02.5.html">
+            
+                    
+                    在 Windows 上安装 Go
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.2.6" data-path="../../the-way-to-go/eBook/02.6.html">
+            
+                <a href="../../the-way-to-go/eBook/02.6.html">
+            
+                    
+                    安装目录清单
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.2.7" data-path="../../the-way-to-go/eBook/02.7.html">
+            
+                <a href="../../the-way-to-go/eBook/02.7.html">
+            
+                    
+                    Go 运行时（runtime）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.2.8" data-path="../../the-way-to-go/eBook/02.8.html">
+            
+                <a href="../../the-way-to-go/eBook/02.8.html">
+            
+                    
+                    Go 解释器
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.3" data-path="../../the-way-to-go/eBook/03.0.html">
+            
+                <a href="../../the-way-to-go/eBook/03.0.html">
+            
+                    
+                    编辑器、集成开发环境与其它工具
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.3.1" data-path="../../the-way-to-go/eBook/03.1.html">
+            
+                <a href="../../the-way-to-go/eBook/03.1.html">
+            
+                    
+                    Go 开发环境的基本要求
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.3.2" data-path="../../the-way-to-go/eBook/03.2.html">
+            
+                <a href="../../the-way-to-go/eBook/03.2.html">
+            
+                    
+                    编辑器和集成开发环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.3.3" data-path="../../the-way-to-go/eBook/03.3.html">
+            
+                <a href="../../the-way-to-go/eBook/03.3.html">
+            
+                    
+                    调试器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.3.4" data-path="../../the-way-to-go/eBook/03.4.html">
+            
+                <a href="../../the-way-to-go/eBook/03.4.html">
+            
+                    
+                    构建并运行 Go 程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.3.5" data-path="../../the-way-to-go/eBook/03.5.html">
+            
+                <a href="../../the-way-to-go/eBook/03.5.html">
+            
+                    
+                    格式化代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.3.6" data-path="../../the-way-to-go/eBook/03.6.html">
+            
+                <a href="../../the-way-to-go/eBook/03.6.html">
+            
+                    
+                    生成代码文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.3.7" data-path="../../the-way-to-go/eBook/03.7.html">
+            
+                <a href="../../the-way-to-go/eBook/03.7.html">
+            
+                    
+                    其它工具
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.3.8" data-path="../../the-way-to-go/eBook/03.8.html">
+            
+                <a href="../../the-way-to-go/eBook/03.8.html">
+            
+                    
+                    Go 性能说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.3.9" data-path="../../the-way-to-go/eBook/03.9.html">
+            
+                <a href="../../the-way-to-go/eBook/03.9.html">
+            
+                    
+                    与其它语言进行交互
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" >
+            
+                <span>
+            
+                    
+                    第二部分：语言的核心结构与技术
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.1" >
+            
+                <span>
+            
+                    
+                    第4章：基本结构和基本数据类型
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.1.1" data-path="../../the-way-to-go/eBook/04.1.html">
+            
+                <a href="../../the-way-to-go/eBook/04.1.html">
+            
+                    
+                    文件名、关键字与标识符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.1.2" data-path="../../the-way-to-go/eBook/04.2.html">
+            
+                <a href="../../the-way-to-go/eBook/04.2.html">
+            
+                    
+                    Go 程序的基本结构和要素
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.1.3" data-path="../../the-way-to-go/eBook/04.3.html">
+            
+                <a href="../../the-way-to-go/eBook/04.3.html">
+            
+                    
+                    常量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.1.4" data-path="../../the-way-to-go/eBook/04.4.html">
+            
+                <a href="../../the-way-to-go/eBook/04.4.html">
+            
+                    
+                    变量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.1.5" data-path="../../the-way-to-go/eBook/04.5.html">
+            
+                <a href="../../the-way-to-go/eBook/04.5.html">
+            
+                    
+                    基本类型和运算符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.1.6" data-path="../../the-way-to-go/eBook/04.6.html">
+            
+                <a href="../../the-way-to-go/eBook/04.6.html">
+            
+                    
+                    字符串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.1.7" data-path="../../the-way-to-go/eBook/04.7.html">
+            
+                <a href="../../the-way-to-go/eBook/04.7.html">
+            
+                    
+                    strings 和 strconv 包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.1.8" data-path="../../the-way-to-go/eBook/04.8.html">
+            
+                <a href="../../the-way-to-go/eBook/04.8.html">
+            
+                    
+                    时间和日期
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.1.9" data-path="../../the-way-to-go/eBook/04.9.html">
+            
+                <a href="../../the-way-to-go/eBook/04.9.html">
+            
+                    
+                    指针
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.2" data-path="../../the-way-to-go/eBook/05.0.html">
+            
+                <a href="../../the-way-to-go/eBook/05.0.html">
+            
+                    
+                    控制结构
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.2.1" data-path="../../the-way-to-go/eBook/05.1.html">
+            
+                <a href="../../the-way-to-go/eBook/05.1.html">
+            
+                    
+                    if-else 结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.2.2" data-path="../../the-way-to-go/eBook/05.2.html">
+            
+                <a href="../../the-way-to-go/eBook/05.2.html">
+            
+                    
+                    测试多返回值函数的错误
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.2.3" data-path="../../the-way-to-go/eBook/05.3.html">
+            
+                <a href="../../the-way-to-go/eBook/05.3.html">
+            
+                    
+                    switch 结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.2.4" data-path="../../the-way-to-go/eBook/05.4.html">
+            
+                <a href="../../the-way-to-go/eBook/05.4.html">
+            
+                    
+                    for 结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.2.5" data-path="../../the-way-to-go/eBook/05.5.html">
+            
+                <a href="../../the-way-to-go/eBook/05.5.html">
+            
+                    
+                    Break 与 continue
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.2.6" data-path="../../the-way-to-go/eBook/05.6.html">
+            
+                <a href="../../the-way-to-go/eBook/05.6.html">
+            
+                    
+                    标签与 goto
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.3" data-path="../../the-way-to-go/eBook/06.0.html">
+            
+                <a href="../../the-way-to-go/eBook/06.0.html">
+            
+                    
+                    函数（function）
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.3.1" data-path="../../the-way-to-go/eBook/06.1.html">
+            
+                <a href="../../the-way-to-go/eBook/06.1.html">
+            
+                    
+                    介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.3.2" data-path="../../the-way-to-go/eBook/06.2.html">
+            
+                <a href="../../the-way-to-go/eBook/06.2.html">
+            
+                    
+                    函数参数与返回值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.3.3" data-path="../../the-way-to-go/eBook/06.3.html">
+            
+                <a href="../../the-way-to-go/eBook/06.3.html">
+            
+                    
+                    传递变长参数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.3.4" data-path="../../the-way-to-go/eBook/06.4.html">
+            
+                <a href="../../the-way-to-go/eBook/06.4.html">
+            
+                    
+                    defer 和追踪
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.3.5" data-path="../../the-way-to-go/eBook/06.5.html">
+            
+                <a href="../../the-way-to-go/eBook/06.5.html">
+            
+                    
+                    内置函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.3.6" data-path="../../the-way-to-go/eBook/06.6.html">
+            
+                <a href="../../the-way-to-go/eBook/06.6.html">
+            
+                    
+                    递归函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.3.7" data-path="../../the-way-to-go/eBook/06.7.html">
+            
+                <a href="../../the-way-to-go/eBook/06.7.html">
+            
+                    
+                    将函数作为参数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.3.8" data-path="../../the-way-to-go/eBook/06.8.html">
+            
+                <a href="../../the-way-to-go/eBook/06.8.html">
+            
+                    
+                    闭包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.3.9" data-path="../../the-way-to-go/eBook/06.9.html">
+            
+                <a href="../../the-way-to-go/eBook/06.9.html">
+            
+                    
+                    应用闭包：将函数作为返回值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.3.10" data-path="../../the-way-to-go/eBook/06.10.html">
+            
+                <a href="../../the-way-to-go/eBook/06.10.html">
+            
+                    
+                    使用闭包调试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.3.11" data-path="../../the-way-to-go/eBook/06.11.html">
+            
+                <a href="../../the-way-to-go/eBook/06.11.html">
+            
+                    
+                    计算函数执行时间
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.3.12" data-path="../../the-way-to-go/eBook/06.12.html">
+            
+                <a href="../../the-way-to-go/eBook/06.12.html">
+            
+                    
+                    通过内存缓存来提升性能
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.4" data-path="../../the-way-to-go/eBook/07.0.html">
+            
+                <a href="../../the-way-to-go/eBook/07.0.html">
+            
+                    
+                    数组与切片
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.4.1" data-path="../../the-way-to-go/eBook/07.1.html">
+            
+                <a href="../../the-way-to-go/eBook/07.1.html">
+            
+                    
+                    声明和初始化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.4.2" data-path="../../the-way-to-go/eBook/07.2.html">
+            
+                <a href="../../the-way-to-go/eBook/07.2.html">
+            
+                    
+                    切片
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.4.3" data-path="../../the-way-to-go/eBook/07.3.html">
+            
+                <a href="../../the-way-to-go/eBook/07.3.html">
+            
+                    
+                    For-range 结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.4.4" data-path="../../the-way-to-go/eBook/07.4.html">
+            
+                <a href="../../the-way-to-go/eBook/07.4.html">
+            
+                    
+                    切片重组（reslice）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.4.5" data-path="../../the-way-to-go/eBook/07.5.html">
+            
+                <a href="../../the-way-to-go/eBook/07.5.html">
+            
+                    
+                    切片的复制与追加
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.4.6" data-path="../../the-way-to-go/eBook/07.6.html">
+            
+                <a href="../../the-way-to-go/eBook/07.6.html">
+            
+                    
+                    字符串、数组和切片的应用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.5" data-path="../../the-way-to-go/eBook/08.0.html">
+            
+                <a href="../../the-way-to-go/eBook/08.0.html">
+            
+                    
+                    Map
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.5.1" data-path="../../the-way-to-go/eBook/08.1.html">
+            
+                <a href="../../the-way-to-go/eBook/08.1.html">
+            
+                    
+                    声明、初始化和 make
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.5.2" data-path="../../the-way-to-go/eBook/08.2.html">
+            
+                <a href="../../the-way-to-go/eBook/08.2.html">
+            
+                    
+                    测试键值对是否存在及删除元素
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.5.3" data-path="../../the-way-to-go/eBook/08.3.html">
+            
+                <a href="../../the-way-to-go/eBook/08.3.html">
+            
+                    
+                    for-range 的配套用法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.5.4" data-path="../../the-way-to-go/eBook/08.4.html">
+            
+                <a href="../../the-way-to-go/eBook/08.4.html">
+            
+                    
+                    map 类型的切片
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.5.5" data-path="../../the-way-to-go/eBook/08.5.html">
+            
+                <a href="../../the-way-to-go/eBook/08.5.html">
+            
+                    
+                    map 的排序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.5.6" data-path="../../the-way-to-go/eBook/08.6.html">
+            
+                <a href="../../the-way-to-go/eBook/08.6.html">
+            
+                    
+                    将 map 的键值对调
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.6" data-path="../../the-way-to-go/eBook/09.0.html">
+            
+                <a href="../../the-way-to-go/eBook/09.0.html">
+            
+                    
+                    包（package）
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.6.1" data-path="../../the-way-to-go/eBook/09.1.html">
+            
+                <a href="../../the-way-to-go/eBook/09.1.html">
+            
+                    
+                    标准库概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.6.2" data-path="../../the-way-to-go/eBook/09.2.html">
+            
+                <a href="../../the-way-to-go/eBook/09.2.html">
+            
+                    
+                    regexp 包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.6.3" data-path="../../the-way-to-go/eBook/09.3.html">
+            
+                <a href="../../the-way-to-go/eBook/09.3.html">
+            
+                    
+                    锁和 sync 包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.6.4" data-path="../../the-way-to-go/eBook/09.4.html">
+            
+                <a href="../../the-way-to-go/eBook/09.4.html">
+            
+                    
+                    精密计算和 big 包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.6.5" data-path="../../the-way-to-go/eBook/09.5.html">
+            
+                <a href="../../the-way-to-go/eBook/09.5.html">
+            
+                    
+                    自定义包和可见性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.6.6" data-path="../../the-way-to-go/eBook/09.6.html">
+            
+                <a href="../../the-way-to-go/eBook/09.6.html">
+            
+                    
+                    为自定义包使用 godoc
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.6.7" data-path="../../the-way-to-go/eBook/09.7.html">
+            
+                <a href="../../the-way-to-go/eBook/09.7.html">
+            
+                    
+                    使用 go install 安装自定义包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.6.8" data-path="../../the-way-to-go/eBook/09.8.html">
+            
+                <a href="../../the-way-to-go/eBook/09.8.html">
+            
+                    
+                    自定义包的目录结构、go install 和 go test
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.6.9" data-path="../../the-way-to-go/eBook/09.9.html">
+            
+                <a href="../../the-way-to-go/eBook/09.9.html">
+            
+                    
+                    通过 Git 打包和安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.6.10" data-path="../../the-way-to-go/eBook/09.10.html">
+            
+                <a href="../../the-way-to-go/eBook/09.10.html">
+            
+                    
+                    Go 的外部包和项目
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.6.11" data-path="../../the-way-to-go/eBook/09.11.html">
+            
+                <a href="../../the-way-to-go/eBook/09.11.html">
+            
+                    
+                    在 Go 程序中使用外部库
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.7" data-path="../../the-way-to-go/eBook/10.0.html">
+            
+                <a href="../../the-way-to-go/eBook/10.0.html">
+            
+                    
+                    结构（struct）与方法（method）
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.7.1" data-path="../../the-way-to-go/eBook/10.1.html">
+            
+                <a href="../../the-way-to-go/eBook/10.1.html">
+            
+                    
+                    结构体定义
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.7.2" data-path="../../the-way-to-go/eBook/10.2.html">
+            
+                <a href="../../the-way-to-go/eBook/10.2.html">
+            
+                    
+                    使用工厂方法创建结构体实例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.7.3" data-path="../../the-way-to-go/eBook/10.3.html">
+            
+                <a href="../../the-way-to-go/eBook/10.3.html">
+            
+                    
+                    使用自定义包中的结构体
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.7.4" data-path="../../the-way-to-go/eBook/10.4.html">
+            
+                <a href="../../the-way-to-go/eBook/10.4.html">
+            
+                    
+                    带标签的结构体
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.7.5" data-path="../../the-way-to-go/eBook/10.5.html">
+            
+                <a href="../../the-way-to-go/eBook/10.5.html">
+            
+                    
+                    匿名字段和内嵌结构体
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.7.6" data-path="../../the-way-to-go/eBook/10.6.html">
+            
+                <a href="../../the-way-to-go/eBook/10.6.html">
+            
+                    
+                    方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.7.7" data-path="../../the-way-to-go/eBook/10.7.html">
+            
+                <a href="../../the-way-to-go/eBook/10.7.html">
+            
+                    
+                    类型的 String() 方法和格式化描述符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.7.8" data-path="../../the-way-to-go/eBook/10.8.html">
+            
+                <a href="../../the-way-to-go/eBook/10.8.html">
+            
+                    
+                    垃圾回收和 SetFinalizer
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.8" data-path="../../the-way-to-go/eBook/11.0.html">
+            
+                <a href="../../the-way-to-go/eBook/11.0.html">
+            
+                    
+                    接口（interface）与反射（reflection）
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.8.1" data-path="../../the-way-to-go/eBook/11.1.html">
+            
+                <a href="../../the-way-to-go/eBook/11.1.html">
+            
+                    
+                    接口是什么
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.8.2" data-path="../../the-way-to-go/eBook/11.2.html">
+            
+                <a href="../../the-way-to-go/eBook/11.2.html">
+            
+                    
+                    接口嵌套接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.8.3" data-path="../../the-way-to-go/eBook/11.3.html">
+            
+                <a href="../../the-way-to-go/eBook/11.3.html">
+            
+                    
+                    类型断言：如何检测和转换接口变量的类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.8.4" data-path="../../the-way-to-go/eBook/11.4.html">
+            
+                <a href="../../the-way-to-go/eBook/11.4.html">
+            
+                    
+                    类型判断：type-switch
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.8.5" data-path="../../the-way-to-go/eBook/11.5.html">
+            
+                <a href="../../the-way-to-go/eBook/11.5.html">
+            
+                    
+                    测试一个值是否实现了某个接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.8.6" data-path="../../the-way-to-go/eBook/11.6.html">
+            
+                <a href="../../the-way-to-go/eBook/11.6.html">
+            
+                    
+                    使用方法集与接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.8.7" data-path="../../the-way-to-go/eBook/11.7.html">
+            
+                <a href="../../the-way-to-go/eBook/11.7.html">
+            
+                    
+                    第一个例子：使用 Sorter 接口排序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.8.8" data-path="../../the-way-to-go/eBook/11.8.html">
+            
+                <a href="../../the-way-to-go/eBook/11.8.html">
+            
+                    
+                    第二个例子：读和写
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.8.9" data-path="../../the-way-to-go/eBook/11.9.html">
+            
+                <a href="../../the-way-to-go/eBook/11.9.html">
+            
+                    
+                    空接口
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.8.9.1" data-path="../../the-way-to-go/eBook/11.10.html">
+            
+                <a href="../../the-way-to-go/eBook/11.10.html">
+            
+                    
+                    反射包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.8.9.2" data-path="../../the-way-to-go/eBook/11.11.html">
+            
+                <a href="../../the-way-to-go/eBook/11.11.html">
+            
+                    
+                    Printf 和反射
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.8.9.3" data-path="../../the-way-to-go/eBook/11.12.html">
+            
+                <a href="../../the-way-to-go/eBook/11.12.html">
+            
+                    
+                    接口与动态类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.8.9.4" data-path="../../the-way-to-go/eBook/11.13.html">
+            
+                <a href="../../the-way-to-go/eBook/11.13.html">
+            
+                    
+                    总结：Go 中的面向对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.8.9.5" data-path="../../the-way-to-go/eBook/11.14.html">
+            
+                <a href="../../the-way-to-go/eBook/11.14.html">
+            
+                    
+                    结构体、集合和高阶函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" >
+            
+                <span>
+            
+                    
+                    第三部分：Go 高级编程
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.4.1" data-path="../../the-way-to-go/eBook/12.0.html">
+            
+                <a href="../../the-way-to-go/eBook/12.0.html">
+            
+                    
+                    读写数据
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.4.1.1" data-path="../../the-way-to-go/eBook/12.1.html">
+            
+                <a href="../../the-way-to-go/eBook/12.1.html">
+            
+                    
+                    读取用户的输入
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.1.2" data-path="../../the-way-to-go/eBook/12.2.html">
+            
+                <a href="../../the-way-to-go/eBook/12.2.html">
+            
+                    
+                    文件读写
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.1.3" data-path="../../the-way-to-go/eBook/12.3.html">
+            
+                <a href="../../the-way-to-go/eBook/12.3.html">
+            
+                    
+                    文件拷贝
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.1.4" data-path="../../the-way-to-go/eBook/12.4.html">
+            
+                <a href="../../the-way-to-go/eBook/12.4.html">
+            
+                    
+                    从命令行读取参数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.1.5" data-path="../../the-way-to-go/eBook/12.5.html">
+            
+                <a href="../../the-way-to-go/eBook/12.5.html">
+            
+                    
+                    用 buffer 读取文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.1.6" data-path="../../the-way-to-go/eBook/12.6.html">
+            
+                <a href="../../the-way-to-go/eBook/12.6.html">
+            
+                    
+                    用切片读写文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.1.7" data-path="../../the-way-to-go/eBook/12.7.html">
+            
+                <a href="../../the-way-to-go/eBook/12.7.html">
+            
+                    
+                    用 defer 关闭文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.1.8" data-path="../../the-way-to-go/eBook/12.8.html">
+            
+                <a href="../../the-way-to-go/eBook/12.8.html">
+            
+                    
+                    使用接口的实际例子：fmt.Fprintf
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.1.9" data-path="../../the-way-to-go/eBook/12.9.html">
+            
+                <a href="../../the-way-to-go/eBook/12.9.html">
+            
+                    
+                    格式化 JSON 数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.1.10" data-path="../../the-way-to-go/eBook/12.10.html">
+            
+                <a href="../../the-way-to-go/eBook/12.10.html">
+            
+                    
+                    XML 数据格式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.1.11" data-path="../../the-way-to-go/eBook/12.11.html">
+            
+                <a href="../../the-way-to-go/eBook/12.11.html">
+            
+                    
+                    用 Gob 传输数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.1.12" data-path="../../the-way-to-go/eBook/12.12.html">
+            
+                <a href="../../the-way-to-go/eBook/12.12.html">
+            
+                    
+                    Go 中的密码学
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.2" data-path="../../the-way-to-go/eBook/13.0.html">
+            
+                <a href="../../the-way-to-go/eBook/13.0.html">
+            
+                    
+                    错误处理与测试
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.4.2.1" data-path="../../the-way-to-go/eBook/13.1.html">
+            
+                <a href="../../the-way-to-go/eBook/13.1.html">
+            
+                    
+                    错误处理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.2.2" data-path="../../the-way-to-go/eBook/13.2.html">
+            
+                <a href="../../the-way-to-go/eBook/13.2.html">
+            
+                    
+                    运行时异常和 panic
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.2.3" data-path="../../the-way-to-go/eBook/13.3.html">
+            
+                <a href="../../the-way-to-go/eBook/13.3.html">
+            
+                    
+                    从 panic 中恢复（Recover）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.2.4" data-path="../../the-way-to-go/eBook/13.4.html">
+            
+                <a href="../../the-way-to-go/eBook/13.4.html">
+            
+                    
+                    自定义包中的错误处理和 panicking
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.2.5" data-path="../../the-way-to-go/eBook/13.5.html">
+            
+                <a href="../../the-way-to-go/eBook/13.5.html">
+            
+                    
+                    一种用闭包处理错误的模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.2.6" data-path="../../the-way-to-go/eBook/13.6.html">
+            
+                <a href="../../the-way-to-go/eBook/13.6.html">
+            
+                    
+                    启动外部命令和程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.2.7" data-path="../../the-way-to-go/eBook/13.7.html">
+            
+                <a href="../../the-way-to-go/eBook/13.7.html">
+            
+                    
+                    Go 中的单元测试和基准测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.2.8" data-path="../../the-way-to-go/eBook/13.8.html">
+            
+                <a href="../../the-way-to-go/eBook/13.8.html">
+            
+                    
+                    测试的具体例子
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.2.9" data-path="../../the-way-to-go/eBook/13.9.html">
+            
+                <a href="../../the-way-to-go/eBook/13.9.html">
+            
+                    
+                    用（测试数据）表驱动测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.2.10" data-path="../../the-way-to-go/eBook/13.10.html">
+            
+                <a href="../../the-way-to-go/eBook/13.10.html">
+            
+                    
+                    性能调试：分析并优化 Go 程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Go语言圣经
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../preface.html">
+            
+                <a href="../preface.html">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1" data-path="../ch0/ch0-01.html">
+            
+                <a href="../ch0/ch0-01.html">
+            
+                    
+                    Go语言起源
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.2" data-path="../ch0/ch0-02.html">
+            
+                <a href="../ch0/ch0-02.html">
+            
+                    
+                    Go语言项目
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.3" data-path="../ch0/ch0-03.html">
+            
+                <a href="../ch0/ch0-03.html">
+            
+                    
+                    本书的组织
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.4" data-path="../ch0/ch0-04.html">
+            
+                <a href="../ch0/ch0-04.html">
+            
+                    
+                    更多的信息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.5" data-path="../ch0/ch0-05.html">
+            
+                <a href="../ch0/ch0-05.html">
+            
+                    
+                    致谢
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../ch1/ch1.html">
+            
+                <a href="../ch1/ch1.html">
+            
+                    
+                    入门
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.2.1" data-path="../ch1/ch1-01.html">
+            
+                <a href="../ch1/ch1-01.html">
+            
+                    
+                    Hello, World
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.2" data-path="../ch1/ch1-02.html">
+            
+                <a href="../ch1/ch1-02.html">
+            
+                    
+                    命令行参数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.3" data-path="../ch1/ch1-03.html">
+            
+                <a href="../ch1/ch1-03.html">
+            
+                    
+                    查找重复的行
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.4" data-path="../ch1/ch1-04.html">
+            
+                <a href="../ch1/ch1-04.html">
+            
+                    
+                    GIF动画
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.5" data-path="../ch1/ch1-05.html">
+            
+                <a href="../ch1/ch1-05.html">
+            
+                    
+                    获取URL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.6" data-path="../ch1/ch1-06.html">
+            
+                <a href="../ch1/ch1-06.html">
+            
+                    
+                    并发获取多个URL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.7" data-path="../ch1/ch1-07.html">
+            
+                <a href="../ch1/ch1-07.html">
+            
+                    
+                    Web服务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.8" data-path="../ch1/ch1-08.html">
+            
+                <a href="../ch1/ch1-08.html">
+            
+                    
+                    本章要点
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../ch2/ch2.html">
+            
+                <a href="../ch2/ch2.html">
+            
+                    
+                    程序结构
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.3.1" data-path="../ch2/ch2-01.html">
+            
+                <a href="../ch2/ch2-01.html">
+            
+                    
+                    命名
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2" data-path="../ch2/ch2-02.html">
+            
+                <a href="../ch2/ch2-02.html">
+            
+                    
+                    声明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3" data-path="../ch2/ch2-03.html">
+            
+                <a href="../ch2/ch2-03.html">
+            
+                    
+                    变量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.4" data-path="../ch2/ch2-04.html">
+            
+                <a href="../ch2/ch2-04.html">
+            
+                    
+                    赋值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.5" data-path="../ch2/ch2-05.html">
+            
+                <a href="../ch2/ch2-05.html">
+            
+                    
+                    类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.6" data-path="../ch2/ch2-06.html">
+            
+                <a href="../ch2/ch2-06.html">
+            
+                    
+                    包和文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.7" data-path="../ch2/ch2-07.html">
+            
+                <a href="../ch2/ch2-07.html">
+            
+                    
+                    作用域
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../ch3/ch3.html">
+            
+                <a href="../ch3/ch3.html">
+            
+                    
+                    基础数据类型
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.4.1" data-path="../ch3/ch3-01.html">
+            
+                <a href="../ch3/ch3-01.html">
+            
+                    
+                    整型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.2" data-path="../ch3/ch3-02.html">
+            
+                <a href="../ch3/ch3-02.html">
+            
+                    
+                    浮点数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.3" data-path="../ch3/ch3-03.html">
+            
+                <a href="../ch3/ch3-03.html">
+            
+                    
+                    复数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.4" data-path="../ch3/ch3-04.html">
+            
+                <a href="../ch3/ch3-04.html">
+            
+                    
+                    布尔型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.5" data-path="../ch3/ch3-05.html">
+            
+                <a href="../ch3/ch3-05.html">
+            
+                    
+                    字符串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.6" data-path="../ch3/ch3-06.html">
+            
+                <a href="../ch3/ch3-06.html">
+            
+                    
+                    常量
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="ch4.html">
+            
+                <a href="ch4.html">
+            
+                    
+                    复合数据类型
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.5.1" data-path="ch4-01.html">
+            
+                <a href="ch4-01.html">
+            
+                    
+                    数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5.2" data-path="ch4-02.html">
+            
+                <a href="ch4-02.html">
+            
+                    
+                    Slice
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.5.3" data-path="ch4-03.html">
+            
+                <a href="ch4-03.html">
+            
+                    
+                    Map
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5.4" data-path="ch4-04.html">
+            
+                <a href="ch4-04.html">
+            
+                    
+                    结构体
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5.5" data-path="ch4-05.html">
+            
+                <a href="ch4-05.html">
+            
+                    
+                    JSON
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5.6" data-path="ch4-06.html">
+            
+                <a href="ch4-06.html">
+            
+                    
+                    文本和HTML模板
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../ch5/ch5.html">
+            
+                <a href="../ch5/ch5.html">
+            
+                    
+                    函数
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.6.1" data-path="../ch5/ch5-01.html">
+            
+                <a href="../ch5/ch5-01.html">
+            
+                    
+                    函数声明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6.2" data-path="../ch5/ch5-02.html">
+            
+                <a href="../ch5/ch5-02.html">
+            
+                    
+                    递归
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6.3" data-path="../ch5/ch5-03.html">
+            
+                <a href="../ch5/ch5-03.html">
+            
+                    
+                    多返回值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6.4" data-path="../ch5/ch5-04.html">
+            
+                <a href="../ch5/ch5-04.html">
+            
+                    
+                    错误
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6.5" data-path="../ch5/ch5-05.html">
+            
+                <a href="../ch5/ch5-05.html">
+            
+                    
+                    函数值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6.6" data-path="../ch5/ch5-06.html">
+            
+                <a href="../ch5/ch5-06.html">
+            
+                    
+                    匿名函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6.7" data-path="../ch5/ch5-07.html">
+            
+                <a href="../ch5/ch5-07.html">
+            
+                    
+                    可变参数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6.8" data-path="../ch5/ch5-08.html">
+            
+                <a href="../ch5/ch5-08.html">
+            
+                    
+                    Deferred函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6.9" data-path="../ch5/ch5-09.html">
+            
+                <a href="../ch5/ch5-09.html">
+            
+                    
+                    Panic异常
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6.10" data-path="../ch5/ch5-10.html">
+            
+                <a href="../ch5/ch5-10.html">
+            
+                    
+                    Recover捕获异常
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../ch6/ch6.html">
+            
+                <a href="../ch6/ch6.html">
+            
+                    
+                    方法
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.7.1" data-path="../ch6/ch6-01.html">
+            
+                <a href="../ch6/ch6-01.html">
+            
+                    
+                    方法声明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7.2" data-path="../ch6/ch6-02.html">
+            
+                <a href="../ch6/ch6-02.html">
+            
+                    
+                    基于指针对象的方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7.3" data-path="../ch6/ch6-03.html">
+            
+                <a href="../ch6/ch6-03.html">
+            
+                    
+                    通过嵌入结构体来扩展类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7.4" data-path="../ch6/ch6-04.html">
+            
+                <a href="../ch6/ch6-04.html">
+            
+                    
+                    方法值和方法表达式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7.5" data-path="../ch6/ch6-05.html">
+            
+                <a href="../ch6/ch6-05.html">
+            
+                    
+                    示例: Bit数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7.6" data-path="../ch6/ch6-06.html">
+            
+                <a href="../ch6/ch6-06.html">
+            
+                    
+                    封装
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../ch7/ch7.html">
+            
+                <a href="../ch7/ch7.html">
+            
+                    
+                    接口
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.8.1" data-path="../ch7/ch7-01.html">
+            
+                <a href="../ch7/ch7-01.html">
+            
+                    
+                    接口是合约
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8.2" data-path="../ch7/ch7-02.html">
+            
+                <a href="../ch7/ch7-02.html">
+            
+                    
+                    接口类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8.3" data-path="../ch7/ch7-03.html">
+            
+                <a href="../ch7/ch7-03.html">
+            
+                    
+                    实现接口的条件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8.4" data-path="../ch7/ch7-04.html">
+            
+                <a href="../ch7/ch7-04.html">
+            
+                    
+                    flag.Value接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8.5" data-path="../ch7/ch7-05.html">
+            
+                <a href="../ch7/ch7-05.html">
+            
+                    
+                    接口值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8.6" data-path="../ch7/ch7-06.html">
+            
+                <a href="../ch7/ch7-06.html">
+            
+                    
+                    sort.Interface接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8.7" data-path="../ch7/ch7-07.html">
+            
+                <a href="../ch7/ch7-07.html">
+            
+                    
+                    http.Handler接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8.8" data-path="../ch7/ch7-08.html">
+            
+                <a href="../ch7/ch7-08.html">
+            
+                    
+                    error接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8.9" data-path="../ch7/ch7-09.html">
+            
+                <a href="../ch7/ch7-09.html">
+            
+                    
+                    示例: 表达式求值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8.10" data-path="../ch7/ch7-10.html">
+            
+                <a href="../ch7/ch7-10.html">
+            
+                    
+                    类型断言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8.11" data-path="../ch7/ch7-11.html">
+            
+                <a href="../ch7/ch7-11.html">
+            
+                    
+                    基于类型断言识别错误类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8.12" data-path="../ch7/ch7-12.html">
+            
+                <a href="../ch7/ch7-12.html">
+            
+                    
+                    通过类型断言查询接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8.13" data-path="../ch7/ch7-13.html">
+            
+                <a href="../ch7/ch7-13.html">
+            
+                    
+                    类型分支
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8.14" data-path="../ch7/ch7-14.html">
+            
+                <a href="../ch7/ch7-14.html">
+            
+                    
+                    示例: 基于标记的XML解码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8.15" data-path="../ch7/ch7-15.html">
+            
+                <a href="../ch7/ch7-15.html">
+            
+                    
+                    补充几点
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="../ch8/ch8.html">
+            
+                <a href="../ch8/ch8.html">
+            
+                    
+                    Goroutines和Channels
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.9.1" data-path="../ch8/ch8-01.html">
+            
+                <a href="../ch8/ch8-01.html">
+            
+                    
+                    Goroutines
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9.2" data-path="../ch8/ch8-02.html">
+            
+                <a href="../ch8/ch8-02.html">
+            
+                    
+                    示例: 并发的Clock服务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9.3" data-path="../ch8/ch8-03.html">
+            
+                <a href="../ch8/ch8-03.html">
+            
+                    
+                    示例: 并发的Echo服务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9.4" data-path="../ch8/ch8-04.html">
+            
+                <a href="../ch8/ch8-04.html">
+            
+                    
+                    Channels
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9.5" data-path="../ch8/ch8-05.html">
+            
+                <a href="../ch8/ch8-05.html">
+            
+                    
+                    并发的循环
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9.6" data-path="../ch8/ch8-06.html">
+            
+                <a href="../ch8/ch8-06.html">
+            
+                    
+                    示例: 并发的Web爬虫
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9.7" data-path="../ch8/ch8-07.html">
+            
+                <a href="../ch8/ch8-07.html">
+            
+                    
+                    基于select的多路复用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9.8" data-path="../ch8/ch8-08.html">
+            
+                <a href="../ch8/ch8-08.html">
+            
+                    
+                    示例: 并发的目录遍历
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9.9" data-path="../ch8/ch8-09.html">
+            
+                <a href="../ch8/ch8-09.html">
+            
+                    
+                    并发的退出
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9.10" data-path="../ch8/ch8-10.html">
+            
+                <a href="../ch8/ch8-10.html">
+            
+                    
+                    示例: 聊天服务
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="../ch9/ch9.html">
+            
+                <a href="../ch9/ch9.html">
+            
+                    
+                    基于共享变量的并发
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.10.1" data-path="../ch9/ch9-01.html">
+            
+                <a href="../ch9/ch9-01.html">
+            
+                    
+                    竞争条件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10.2" data-path="../ch9/ch9-02.html">
+            
+                <a href="../ch9/ch9-02.html">
+            
+                    
+                    sync.Mutex互斥锁
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10.3" data-path="../ch9/ch9-03.html">
+            
+                <a href="../ch9/ch9-03.html">
+            
+                    
+                    sync.RWMutex读写锁
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10.4" data-path="../ch9/ch9-04.html">
+            
+                <a href="../ch9/ch9-04.html">
+            
+                    
+                    内存同步
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10.5" data-path="../ch9/ch9-05.html">
+            
+                <a href="../ch9/ch9-05.html">
+            
+                    
+                    sync.Once惰性初始化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10.6" data-path="../ch9/ch9-06.html">
+            
+                <a href="../ch9/ch9-06.html">
+            
+                    
+                    竞争条件检测
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10.7" data-path="../ch9/ch9-07.html">
+            
+                <a href="../ch9/ch9-07.html">
+            
+                    
+                    示例: 并发的非阻塞缓存
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10.8" data-path="../ch9/ch9-08.html">
+            
+                <a href="../ch9/ch9-08.html">
+            
+                    
+                    Goroutines和线程
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11" data-path="../ch10/ch10.html">
+            
+                <a href="../ch10/ch10.html">
+            
+                    
+                    包和工具
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.11.1" data-path="../ch10/ch10-01.html">
+            
+                <a href="../ch10/ch10-01.html">
+            
+                    
+                    包简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11.2" data-path="../ch10/ch10-02.html">
+            
+                <a href="../ch10/ch10-02.html">
+            
+                    
+                    导入路径
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11.3" data-path="../ch10/ch10-03.html">
+            
+                <a href="../ch10/ch10-03.html">
+            
+                    
+                    包声明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11.4" data-path="../ch10/ch10-04.html">
+            
+                <a href="../ch10/ch10-04.html">
+            
+                    
+                    导入声明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11.5" data-path="../ch10/ch10-05.html">
+            
+                <a href="../ch10/ch10-05.html">
+            
+                    
+                    包的匿名导入
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11.6" data-path="../ch10/ch10-06.html">
+            
+                <a href="../ch10/ch10-06.html">
+            
+                    
+                    包和命名
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11.7" data-path="../ch10/ch10-07.html">
+            
+                <a href="../ch10/ch10-07.html">
+            
+                    
+                    工具
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.12" data-path="../ch11/ch11.html">
+            
+                <a href="../ch11/ch11.html">
+            
+                    
+                    测试
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.12.1" data-path="../ch11/ch11-01.html">
+            
+                <a href="../ch11/ch11-01.html">
+            
+                    
+                    go test
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.12.2" data-path="../ch11/ch11-02.html">
+            
+                <a href="../ch11/ch11-02.html">
+            
+                    
+                    测试函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.12.3" data-path="../ch11/ch11-03.html">
+            
+                <a href="../ch11/ch11-03.html">
+            
+                    
+                    测试覆盖率
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.12.4" data-path="../ch11/ch11-04.html">
+            
+                <a href="../ch11/ch11-04.html">
+            
+                    
+                    基准测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.12.5" data-path="../ch11/ch11-05.html">
+            
+                <a href="../ch11/ch11-05.html">
+            
+                    
+                    剖析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.12.6" data-path="../ch11/ch11-06.html">
+            
+                <a href="../ch11/ch11-06.html">
+            
+                    
+                    示例函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.13" data-path="../ch12/ch12.html">
+            
+                <a href="../ch12/ch12.html">
+            
+                    
+                    反射
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.13.1" data-path="../ch12/ch12-01.html">
+            
+                <a href="../ch12/ch12-01.html">
+            
+                    
+                    为何需要反射?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.13.2" data-path="../ch12/ch12-02.html">
+            
+                <a href="../ch12/ch12-02.html">
+            
+                    
+                    reflect.Type和reflect.Value
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.13.3" data-path="../ch12/ch12-03.html">
+            
+                <a href="../ch12/ch12-03.html">
+            
+                    
+                    Display递归打印
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.13.4" data-path="../ch12/ch12-04.html">
+            
+                <a href="../ch12/ch12-04.html">
+            
+                    
+                    示例: 编码S表达式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.13.5" data-path="../ch12/ch12-05.html">
+            
+                <a href="../ch12/ch12-05.html">
+            
+                    
+                    通过reflect.Value修改值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.13.6" data-path="../ch12/ch12-06.html">
+            
+                <a href="../ch12/ch12-06.html">
+            
+                    
+                    示例: 解码S表达式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.13.7" data-path="../ch12/ch12-07.html">
+            
+                <a href="../ch12/ch12-07.html">
+            
+                    
+                    获取结构体字段标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.13.8" data-path="../ch12/ch12-08.html">
+            
+                <a href="../ch12/ch12-08.html">
+            
+                    
+                    显示一个类型的方法集
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.13.9" data-path="../ch12/ch12-09.html">
+            
+                <a href="../ch12/ch12-09.html">
+            
+                    
+                    几点忠告
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.14" data-path="../ch13/ch13.html">
+            
+                <a href="../ch13/ch13.html">
+            
+                    
+                    底层编程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.14.1" data-path="../ch13/ch13-01.html">
+            
+                <a href="../ch13/ch13-01.html">
+            
+                    
+                    unsafe.Sizeof, Alignof 和 Offsetof
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.14.2" data-path="../ch13/ch13-02.html">
+            
+                <a href="../ch13/ch13-02.html">
+            
+                    
+                    unsafe.Pointer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.14.3" data-path="../ch13/ch13-03.html">
+            
+                <a href="../ch13/ch13-03.html">
+            
+                    
+                    示例: 深度相等判断
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.14.4" data-path="../ch13/ch13-04.html">
+            
+                <a href="../ch13/ch13-04.html">
+            
+                    
+                    通过cgo调用C代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.14.5" data-path="../ch13/ch13-05.html">
+            
+                <a href="../ch13/ch13-05.html">
+            
+                    
+                    几点忠告
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.15" data-path="../appendix/appendix.html">
+            
+                <a href="../appendix/appendix.html">
+            
+                    
+                    附录
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.15.1" data-path="../appendix/appendix-a-errata.html">
+            
+                <a href="../appendix/appendix-a-errata.html">
+            
+                    
+                    附录A：原文勘误
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.15.2" data-path="../appendix/appendix-b-author.html">
+            
+                <a href="../appendix/appendix-b-author.html">
+            
+                    
+                    附录B：作者译者
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.15.3" data-path="../appendix/appendix-c-cpoyright.html">
+            
+                <a href="../appendix/appendix-c-cpoyright.html">
+            
+                    
+                    附录C：译文授权
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.15.4" data-path="../appendix/appendix-d-translations.html">
+            
+                <a href="../appendix/appendix-d-translations.html">
+            
+                    
+                    附录D：其它语言
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../build-web-application-with-golang/">
+            
+                <a href="../../build-web-application-with-golang/">
+            
+                    
+                    Go Web 编程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../build-web-application-with-golang/01.0.html">
+            
+                <a href="../../build-web-application-with-golang/01.0.html">
+            
+                    
+                    Go环境配置
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1.1" data-path="../../build-web-application-with-golang/01.1.html">
+            
+                <a href="../../build-web-application-with-golang/01.1.html">
+            
+                    
+                    Go安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.2" data-path="../../build-web-application-with-golang/01.2.html">
+            
+                <a href="../../build-web-application-with-golang/01.2.html">
+            
+                    
+                    GOPATH 与工作空间
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3" data-path="../../build-web-application-with-golang/01.3.html">
+            
+                <a href="../../build-web-application-with-golang/01.3.html">
+            
+                    
+                    Go 命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.4" data-path="../../build-web-application-with-golang/01.4.html">
+            
+                <a href="../../build-web-application-with-golang/01.4.html">
+            
+                    
+                    Go开发工具
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.5" data-path="../../build-web-application-with-golang/01.5.html">
+            
+                <a href="../../build-web-application-with-golang/01.5.html">
+            
+                    
+                    小结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../build-web-application-with-golang/02.0.html">
+            
+                <a href="../../build-web-application-with-golang/02.0.html">
+            
+                    
+                    Go语言基础
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1" data-path="../../build-web-application-with-golang/02.1.html">
+            
+                <a href="../../build-web-application-with-golang/02.1.html">
+            
+                    
+                    你好，Go
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.2" data-path="../../build-web-application-with-golang/02.2.html">
+            
+                <a href="../../build-web-application-with-golang/02.2.html">
+            
+                    
+                    Go基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.3" data-path="../../build-web-application-with-golang/02.3.html">
+            
+                <a href="../../build-web-application-with-golang/02.3.html">
+            
+                    
+                    流程和函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4" data-path="../../build-web-application-with-golang/02.4.html">
+            
+                <a href="../../build-web-application-with-golang/02.4.html">
+            
+                    
+                    struct
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.5" data-path="../../build-web-application-with-golang/02.5.html">
+            
+                <a href="../../build-web-application-with-golang/02.5.html">
+            
+                    
+                    面向对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.6" data-path="../../build-web-application-with-golang/02.6.html">
+            
+                <a href="../../build-web-application-with-golang/02.6.html">
+            
+                    
+                    interface
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.7" data-path="../../build-web-application-with-golang/02.7.html">
+            
+                <a href="../../build-web-application-with-golang/02.7.html">
+            
+                    
+                    并发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.8" data-path="../../build-web-application-with-golang/02.8.html">
+            
+                <a href="../../build-web-application-with-golang/02.8.html">
+            
+                    
+                    小结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../../build-web-application-with-golang/03.0.html">
+            
+                <a href="../../build-web-application-with-golang/03.0.html">
+            
+                    
+                    Web基础
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.3.1" data-path="../../build-web-application-with-golang/03.1.html">
+            
+                <a href="../../build-web-application-with-golang/03.1.html">
+            
+                    
+                    web工作方式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.2" data-path="../../build-web-application-with-golang/03.2.html">
+            
+                <a href="../../build-web-application-with-golang/03.2.html">
+            
+                    
+                    Go搭建一个简单的web服务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.3" data-path="../../build-web-application-with-golang/03.3.html">
+            
+                <a href="../../build-web-application-with-golang/03.3.html">
+            
+                    
+                    Go如何使得web工作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.4" data-path="../../build-web-application-with-golang/03.4.html">
+            
+                <a href="../../build-web-application-with-golang/03.4.html">
+            
+                    
+                    Go的http包详解
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.5" data-path="../../build-web-application-with-golang/03.5.html">
+            
+                <a href="../../build-web-application-with-golang/03.5.html">
+            
+                    
+                    小结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../../build-web-application-with-golang/04.0.html">
+            
+                <a href="../../build-web-application-with-golang/04.0.html">
+            
+                    
+                    表单
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.4.1" data-path="../../build-web-application-with-golang/04.1.html">
+            
+                <a href="../../build-web-application-with-golang/04.1.html">
+            
+                    
+                    处理表单的输入
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.2" data-path="../../build-web-application-with-golang/04.2.html">
+            
+                <a href="../../build-web-application-with-golang/04.2.html">
+            
+                    
+                    验证表单的输入
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.3" data-path="../../build-web-application-with-golang/04.3.html">
+            
+                <a href="../../build-web-application-with-golang/04.3.html">
+            
+                    
+                    预防跨站脚本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.4" data-path="../../build-web-application-with-golang/04.4.html">
+            
+                <a href="../../build-web-application-with-golang/04.4.html">
+            
+                    
+                    防止多次递交表单
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.5" data-path="../../build-web-application-with-golang/04.5.html">
+            
+                <a href="../../build-web-application-with-golang/04.5.html">
+            
+                    
+                    处理文件上传
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.6" data-path="../../build-web-application-with-golang/04.6.html">
+            
+                <a href="../../build-web-application-with-golang/04.6.html">
+            
+                    
+                    小结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../../build-web-application-with-golang/05.0.html">
+            
+                <a href="../../build-web-application-with-golang/05.0.html">
+            
+                    
+                    访问数据库
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.5.1" data-path="../../build-web-application-with-golang/05.1.html">
+            
+                <a href="../../build-web-application-with-golang/05.1.html">
+            
+                    
+                    database/sql接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.2" data-path="../../build-web-application-with-golang/05.2.html">
+            
+                <a href="../../build-web-application-with-golang/05.2.html">
+            
+                    
+                    使用MySQL数据库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.3" data-path="../../build-web-application-with-golang/05.3.html">
+            
+                <a href="../../build-web-application-with-golang/05.3.html">
+            
+                    
+                    使用SQLite数据库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.4" data-path="../../build-web-application-with-golang/05.4.html">
+            
+                <a href="../../build-web-application-with-golang/05.4.html">
+            
+                    
+                    使用PostgreSQL数据库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.5" data-path="../../build-web-application-with-golang/05.5.html">
+            
+                <a href="../../build-web-application-with-golang/05.5.html">
+            
+                    
+                    使用beedb库进行ORM开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.6" data-path="../../build-web-application-with-golang/05.6.html">
+            
+                <a href="../../build-web-application-with-golang/05.6.html">
+            
+                    
+                    NOSQL数据库操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.7" data-path="../../build-web-application-with-golang/05.7.html">
+            
+                <a href="../../build-web-application-with-golang/05.7.html">
+            
+                    
+                    小结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../../build-web-application-with-golang/06.0.html">
+            
+                <a href="../../build-web-application-with-golang/06.0.html">
+            
+                    
+                    session和数据存储
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.6.1" data-path="../../build-web-application-with-golang/06.1.html">
+            
+                <a href="../../build-web-application-with-golang/06.1.html">
+            
+                    
+                    session和cookie
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6.2" data-path="../../build-web-application-with-golang/06.2.html">
+            
+                <a href="../../build-web-application-with-golang/06.2.html">
+            
+                    
+                    Go如何使用session
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6.3" data-path="../../build-web-application-with-golang/06.3.html">
+            
+                <a href="../../build-web-application-with-golang/06.3.html">
+            
+                    
+                    session存储
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6.4" data-path="../../build-web-application-with-golang/06.4.html">
+            
+                <a href="../../build-web-application-with-golang/06.4.html">
+            
+                    
+                    预防session劫持
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6.5" data-path="../../build-web-application-with-golang/06.5.html">
+            
+                <a href="../../build-web-application-with-golang/06.5.html">
+            
+                    
+                    小结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../../build-web-application-with-golang/07.0.html">
+            
+                <a href="../../build-web-application-with-golang/07.0.html">
+            
+                    
+                    文本文件处理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.7.1" data-path="../../build-web-application-with-golang/07.1.html">
+            
+                <a href="../../build-web-application-with-golang/07.1.html">
+            
+                    
+                    XML处理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7.2" data-path="../../build-web-application-with-golang/07.2.html">
+            
+                <a href="../../build-web-application-with-golang/07.2.html">
+            
+                    
+                    JSON处理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7.3" data-path="../../build-web-application-with-golang/07.3.html">
+            
+                <a href="../../build-web-application-with-golang/07.3.html">
+            
+                    
+                    正则处理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7.4" data-path="../../build-web-application-with-golang/07.4.html">
+            
+                <a href="../../build-web-application-with-golang/07.4.html">
+            
+                    
+                    模板处理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7.5" data-path="../../build-web-application-with-golang/07.5.html">
+            
+                <a href="../../build-web-application-with-golang/07.5.html">
+            
+                    
+                    文件操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7.6" data-path="../../build-web-application-with-golang/07.6.html">
+            
+                <a href="../../build-web-application-with-golang/07.6.html">
+            
+                    
+                    字符串处理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7.7" data-path="../../build-web-application-with-golang/07.7.html">
+            
+                <a href="../../build-web-application-with-golang/07.7.html">
+            
+                    
+                    小结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="../../build-web-application-with-golang/08.0.html">
+            
+                <a href="../../build-web-application-with-golang/08.0.html">
+            
+                    
+                    Web服务
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.8.1" data-path="../../build-web-application-with-golang/08.1.html">
+            
+                <a href="../../build-web-application-with-golang/08.1.html">
+            
+                    
+                    Socket编程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8.2" data-path="../../build-web-application-with-golang/08.2.html">
+            
+                <a href="../../build-web-application-with-golang/08.2.html">
+            
+                    
+                    WebSocket
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8.3" data-path="../../build-web-application-with-golang/08.3.html">
+            
+                <a href="../../build-web-application-with-golang/08.3.html">
+            
+                    
+                    REST
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8.4" data-path="../../build-web-application-with-golang/08.4.html">
+            
+                <a href="../../build-web-application-with-golang/08.4.html">
+            
+                    
+                    RPC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8.5" data-path="../../build-web-application-with-golang/08.5.html">
+            
+                <a href="../../build-web-application-with-golang/08.5.html">
+            
+                    
+                    小结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="../../build-web-application-with-golang/09.0.html">
+            
+                <a href="../../build-web-application-with-golang/09.0.html">
+            
+                    
+                    安全与加密
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.9.1" data-path="../../build-web-application-with-golang/09.1.html">
+            
+                <a href="../../build-web-application-with-golang/09.1.html">
+            
+                    
+                    预防CSRF攻击
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9.2" data-path="../../build-web-application-with-golang/09.2.html">
+            
+                <a href="../../build-web-application-with-golang/09.2.html">
+            
+                    
+                    确保输入过滤
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9.3" data-path="../../build-web-application-with-golang/09.3.html">
+            
+                <a href="../../build-web-application-with-golang/09.3.html">
+            
+                    
+                    避免XSS攻击
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9.4" data-path="../../build-web-application-with-golang/09.4.html">
+            
+                <a href="../../build-web-application-with-golang/09.4.html">
+            
+                    
+                    避免SQL注入
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9.5" data-path="../../build-web-application-with-golang/09.5.html">
+            
+                <a href="../../build-web-application-with-golang/09.5.html">
+            
+                    
+                    存储密码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9.6" data-path="../../build-web-application-with-golang/09.6.html">
+            
+                <a href="../../build-web-application-with-golang/09.6.html">
+            
+                    
+                    加密和解密数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9.7" data-path="../../build-web-application-with-golang/09.7.html">
+            
+                <a href="../../build-web-application-with-golang/09.7.html">
+            
+                    
+                    小结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10" data-path="../../build-web-application-with-golang/10.0.html">
+            
+                <a href="../../build-web-application-with-golang/10.0.html">
+            
+                    
+                    国际化和本地化
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.10.1" data-path="../../build-web-application-with-golang/10.1.html">
+            
+                <a href="../../build-web-application-with-golang/10.1.html">
+            
+                    
+                    设置默认地区
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10.2" data-path="../../build-web-application-with-golang/10.2.html">
+            
+                <a href="../../build-web-application-with-golang/10.2.html">
+            
+                    
+                    本地化资源
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10.3" data-path="../../build-web-application-with-golang/10.3.html">
+            
+                <a href="../../build-web-application-with-golang/10.3.html">
+            
+                    
+                    国际化站点
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10.4" data-path="../../build-web-application-with-golang/10.4.html">
+            
+                <a href="../../build-web-application-with-golang/10.4.html">
+            
+                    
+                    小结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.11" data-path="../../build-web-application-with-golang/11.0.html">
+            
+                <a href="../../build-web-application-with-golang/11.0.html">
+            
+                    
+                    错误处理，调试和测试
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.11.1" data-path="../../build-web-application-with-golang/11.1.html">
+            
+                <a href="../../build-web-application-with-golang/11.1.html">
+            
+                    
+                    错误处理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.11.2" data-path="../../build-web-application-with-golang/11.2.html">
+            
+                <a href="../../build-web-application-with-golang/11.2.html">
+            
+                    
+                    使用GDB调试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.11.3" data-path="../../build-web-application-with-golang/11.3.html">
+            
+                <a href="../../build-web-application-with-golang/11.3.html">
+            
+                    
+                    Go怎么写测试用例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.11.4" data-path="../../build-web-application-with-golang/11.4.html">
+            
+                <a href="../../build-web-application-with-golang/11.4.html">
+            
+                    
+                    小结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.12" data-path="../../build-web-application-with-golang/12.0.html">
+            
+                <a href="../../build-web-application-with-golang/12.0.html">
+            
+                    
+                    部署与维护
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.12.1" data-path="../../build-web-application-with-golang/12.1.html">
+            
+                <a href="../../build-web-application-with-golang/12.1.html">
+            
+                    
+                    应用日志
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.12.2" data-path="../../build-web-application-with-golang/12.2.html">
+            
+                <a href="../../build-web-application-with-golang/12.2.html">
+            
+                    
+                    网站错误处理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.12.3" data-path="../../build-web-application-with-golang/12.3.html">
+            
+                <a href="../../build-web-application-with-golang/12.3.html">
+            
+                    
+                    应用部署
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.12.4" data-path="../../build-web-application-with-golang/12.4.html">
+            
+                <a href="../../build-web-application-with-golang/12.4.html">
+            
+                    
+                    备份和恢复
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.12.5" data-path="../../build-web-application-with-golang/12.5.html">
+            
+                <a href="../../build-web-application-with-golang/12.5.html">
+            
+                    
+                    小结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.13" data-path="../../build-web-application-with-golang/13.0.html">
+            
+                <a href="../../build-web-application-with-golang/13.0.html">
+            
+                    
+                    如何设计一个Web框架
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.13.1" data-path="../../build-web-application-with-golang/13.1.html">
+            
+                <a href="../../build-web-application-with-golang/13.1.html">
+            
+                    
+                    项目规划
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.13.2" data-path="../../build-web-application-with-golang/13.2.html">
+            
+                <a href="../../build-web-application-with-golang/13.2.html">
+            
+                    
+                    自定义路由器设计
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.13.3" data-path="../../build-web-application-with-golang/13.3.html">
+            
+                <a href="../../build-web-application-with-golang/13.3.html">
+            
+                    
+                    controller设计
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.13.4" data-path="../../build-web-application-with-golang/13.4.html">
+            
+                <a href="../../build-web-application-with-golang/13.4.html">
+            
+                    
+                    日志和配置设计
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.13.5" data-path="../../build-web-application-with-golang/13.5.html">
+            
+                <a href="../../build-web-application-with-golang/13.5.html">
+            
+                    
+                    实现博客的增删改
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.13.6" data-path="../../build-web-application-with-golang/13.6.html">
+            
+                <a href="../../build-web-application-with-golang/13.6.html">
+            
+                    
+                    小结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.14" data-path="../../build-web-application-with-golang/14.0.html">
+            
+                <a href="../../build-web-application-with-golang/14.0.html">
+            
+                    
+                    扩展Web框架
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.14.1" data-path="../../build-web-application-with-golang/14.1.html">
+            
+                <a href="../../build-web-application-with-golang/14.1.html">
+            
+                    
+                    静态文件支持
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.14.2" data-path="../../build-web-application-with-golang/14.2.html">
+            
+                <a href="../../build-web-application-with-golang/14.2.html">
+            
+                    
+                    Session支持
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.14.3" data-path="../../build-web-application-with-golang/14.3.html">
+            
+                <a href="../../build-web-application-with-golang/14.3.html">
+            
+                    
+                    表单支持
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.14.4" data-path="../../build-web-application-with-golang/14.4.html">
+            
+                <a href="../../build-web-application-with-golang/14.4.html">
+            
+                    
+                    用户认证
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.14.5" data-path="../../build-web-application-with-golang/14.5.html">
+            
+                <a href="../../build-web-application-with-golang/14.5.html">
+            
+                    
+                    多语言支持
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.14.6" data-path="../../build-web-application-with-golang/14.6.html">
+            
+                <a href="../../build-web-application-with-golang/14.6.html">
+            
+                    
+                    pprof支持
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.14.7" data-path="../../build-web-application-with-golang/14.7.html">
+            
+                <a href="../../build-web-application-with-golang/14.7.html">
+            
+                    
+                    小结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.15" data-path="../../build-web-application-with-golang/ref.html">
+            
+                <a href="../../build-web-application-with-golang/ref.html">
+            
+                    
+                    参考资料
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Map</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="43-map">4.3. Map</h2>
+<p>&#x54C8;&#x5E0C;&#x8868;&#x662F;&#x4E00;&#x79CD;&#x5DE7;&#x5999;&#x5E76;&#x4E14;&#x5B9E;&#x7528;&#x7684;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x3002;&#x5B83;&#x662F;&#x4E00;&#x4E2A;&#x65E0;&#x5E8F;&#x7684;key/value&#x5BF9;&#x7684;&#x96C6;&#x5408;&#xFF0C;&#x5176;&#x4E2D;&#x6240;&#x6709;&#x7684;key&#x90FD;&#x662F;&#x4E0D;&#x540C;&#x7684;&#xFF0C;&#x7136;&#x540E;&#x901A;&#x8FC7;&#x7ED9;&#x5B9A;&#x7684;key&#x53EF;&#x4EE5;&#x5728;&#x5E38;&#x6570;&#x65F6;&#x95F4;&#x590D;&#x6742;&#x5EA6;&#x5185;&#x68C0;&#x7D22;&#x3001;&#x66F4;&#x65B0;&#x6216;&#x5220;&#x9664;&#x5BF9;&#x5E94;&#x7684;value&#x3002;</p>
+<p>&#x5728;Go&#x8BED;&#x8A00;&#x4E2D;&#xFF0C;&#x4E00;&#x4E2A;map&#x5C31;&#x662F;&#x4E00;&#x4E2A;&#x54C8;&#x5E0C;&#x8868;&#x7684;&#x5F15;&#x7528;&#xFF0C;map&#x7C7B;&#x578B;&#x53EF;&#x4EE5;&#x5199;&#x4E3A;map[K]V&#xFF0C;&#x5176;&#x4E2D;K&#x548C;V&#x5206;&#x522B;&#x5BF9;&#x5E94;key&#x548C;value&#x3002;map&#x4E2D;&#x6240;&#x6709;&#x7684;key&#x90FD;&#x6709;&#x76F8;&#x540C;&#x7684;&#x7C7B;&#x578B;&#xFF0C;&#x6240;&#x6709;&#x7684;value&#x4E5F;&#x6709;&#x7740;&#x76F8;&#x540C;&#x7684;&#x7C7B;&#x578B;&#xFF0C;&#x4F46;&#x662F;key&#x548C;value&#x4E4B;&#x95F4;&#x53EF;&#x4EE5;&#x662F;&#x4E0D;&#x540C;&#x7684;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x3002;&#x5176;&#x4E2D;K&#x5BF9;&#x5E94;&#x7684;key&#x5FC5;&#x987B;&#x662F;&#x652F;&#x6301;==&#x6BD4;&#x8F83;&#x8FD0;&#x7B97;&#x7B26;&#x7684;&#x6570;&#x636E;&#x7C7B;&#x578B;&#xFF0C;&#x6240;&#x4EE5;map&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x6D4B;&#x8BD5;key&#x662F;&#x5426;&#x76F8;&#x7B49;&#x6765;&#x5224;&#x65AD;&#x662F;&#x5426;&#x5DF2;&#x7ECF;&#x5B58;&#x5728;&#x3002;&#x867D;&#x7136;&#x6D6E;&#x70B9;&#x6570;&#x7C7B;&#x578B;&#x4E5F;&#x662F;&#x652F;&#x6301;&#x76F8;&#x7B49;&#x8FD0;&#x7B97;&#x7B26;&#x6BD4;&#x8F83;&#x7684;&#xFF0C;&#x4F46;&#x662F;&#x5C06;&#x6D6E;&#x70B9;&#x6570;&#x7528;&#x505A;key&#x7C7B;&#x578B;&#x5219;&#x662F;&#x4E00;&#x4E2A;&#x574F;&#x7684;&#x60F3;&#x6CD5;&#xFF0C;&#x6B63;&#x5982;&#x7B2C;&#x4E09;&#x7AE0;&#x63D0;&#x5230;&#x7684;&#xFF0C;&#x6700;&#x574F;&#x7684;&#x60C5;&#x51B5;&#x662F;&#x53EF;&#x80FD;&#x51FA;&#x73B0;&#x7684;NaN&#x548C;&#x4EFB;&#x4F55;&#x6D6E;&#x70B9;&#x6570;&#x90FD;&#x4E0D;&#x76F8;&#x7B49;&#x3002;&#x5BF9;&#x4E8E;V&#x5BF9;&#x5E94;&#x7684;value&#x6570;&#x636E;&#x7C7B;&#x578B;&#x5219;&#x6CA1;&#x6709;&#x4EFB;&#x4F55;&#x7684;&#x9650;&#x5236;&#x3002;</p>
+<p>&#x5185;&#x7F6E;&#x7684;make&#x51FD;&#x6570;&#x53EF;&#x4EE5;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;map&#xFF1A;</p>
+<pre><code class="lang-Go">ages := <span class="hljs-built_in">make</span>(<span class="hljs-keyword">map</span>[<span class="hljs-keyword">string</span>]<span class="hljs-keyword">int</span>) <span class="hljs-comment">// mapping from strings to ints</span>
+</code></pre>
+<p>&#x6211;&#x4EEC;&#x4E5F;&#x53EF;&#x4EE5;&#x7528;map&#x5B57;&#x9762;&#x503C;&#x7684;&#x8BED;&#x6CD5;&#x521B;&#x5EFA;map&#xFF0C;&#x540C;&#x65F6;&#x8FD8;&#x53EF;&#x4EE5;&#x6307;&#x5B9A;&#x4E00;&#x4E9B;&#x6700;&#x521D;&#x7684;key/value&#xFF1A;</p>
+<pre><code class="lang-Go">ages := <span class="hljs-keyword">map</span>[<span class="hljs-keyword">string</span>]<span class="hljs-keyword">int</span>{
+    <span class="hljs-string">&quot;alice&quot;</span>:   <span class="hljs-number">31</span>,
+    <span class="hljs-string">&quot;charlie&quot;</span>: <span class="hljs-number">34</span>,
+}
+</code></pre>
+<p>&#x8FD9;&#x76F8;&#x5F53;&#x4E8E;</p>
+<pre><code class="lang-Go">ages := <span class="hljs-built_in">make</span>(<span class="hljs-keyword">map</span>[<span class="hljs-keyword">string</span>]<span class="hljs-keyword">int</span>)
+ages[<span class="hljs-string">&quot;alice&quot;</span>] = <span class="hljs-number">31</span>
+ages[<span class="hljs-string">&quot;charlie&quot;</span>] = <span class="hljs-number">34</span>
+</code></pre>
+<p>&#x56E0;&#x6B64;&#xFF0C;&#x53E6;&#x4E00;&#x79CD;&#x521B;&#x5EFA;&#x7A7A;&#x7684;map&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x662F;<code>map[string]int{}</code>&#x3002;</p>
+<p>Map&#x4E2D;&#x7684;&#x5143;&#x7D20;&#x901A;&#x8FC7;key&#x5BF9;&#x5E94;&#x7684;&#x4E0B;&#x6807;&#x8BED;&#x6CD5;&#x8BBF;&#x95EE;&#xFF1A;</p>
+<pre><code class="lang-Go">ages[<span class="hljs-string">&quot;alice&quot;</span>] = <span class="hljs-number">32</span>
+fmt.Println(ages[<span class="hljs-string">&quot;alice&quot;</span>]) <span class="hljs-comment">// &quot;32&quot;</span>
+</code></pre>
+<p>&#x4F7F;&#x7528;&#x5185;&#x7F6E;&#x7684;delete&#x51FD;&#x6570;&#x53EF;&#x4EE5;&#x5220;&#x9664;&#x5143;&#x7D20;&#xFF1A;</p>
+<pre><code class="lang-Go"><span class="hljs-built_in">delete</span>(ages, <span class="hljs-string">&quot;alice&quot;</span>) <span class="hljs-comment">// remove element ages[&quot;alice&quot;]</span>
+</code></pre>
+<p>&#x6240;&#x6709;&#x8FD9;&#x4E9B;&#x64CD;&#x4F5C;&#x662F;&#x5B89;&#x5168;&#x7684;&#xFF0C;&#x5373;&#x4F7F;&#x8FD9;&#x4E9B;&#x5143;&#x7D20;&#x4E0D;&#x5728;map&#x4E2D;&#x4E5F;&#x6CA1;&#x6709;&#x5173;&#x7CFB;&#xFF1B;&#x5982;&#x679C;&#x4E00;&#x4E2A;&#x67E5;&#x627E;&#x5931;&#x8D25;&#x5C06;&#x8FD4;&#x56DE;value&#x7C7B;&#x578B;&#x5BF9;&#x5E94;&#x7684;&#x96F6;&#x503C;&#xFF0C;&#x4F8B;&#x5982;&#xFF0C;&#x5373;&#x4F7F;map&#x4E2D;&#x4E0D;&#x5B58;&#x5728;&#x201C;bob&#x201D;&#x4E0B;&#x9762;&#x7684;&#x4EE3;&#x7801;&#x4E5F;&#x53EF;&#x4EE5;&#x6B63;&#x5E38;&#x5DE5;&#x4F5C;&#xFF0C;&#x56E0;&#x4E3A;ages[&quot;bob&quot;]&#x5931;&#x8D25;&#x65F6;&#x5C06;&#x8FD4;&#x56DE;0&#x3002;</p>
+<pre><code class="lang-Go">ages[<span class="hljs-string">&quot;bob&quot;</span>] = ages[<span class="hljs-string">&quot;bob&quot;</span>] + <span class="hljs-number">1</span> <span class="hljs-comment">// happy birthday!</span>
+</code></pre>
+<p>&#x800C;&#x4E14;<code>x += y</code>&#x548C;<code>x++</code>&#x7B49;&#x7B80;&#x77ED;&#x8D4B;&#x503C;&#x8BED;&#x6CD5;&#x4E5F;&#x53EF;&#x4EE5;&#x7528;&#x5728;map&#x4E0A;&#xFF0C;&#x6240;&#x4EE5;&#x4E0A;&#x9762;&#x7684;&#x4EE3;&#x7801;&#x53EF;&#x4EE5;&#x6539;&#x5199;&#x6210;</p>
+<pre><code class="lang-Go">ages[<span class="hljs-string">&quot;bob&quot;</span>] += <span class="hljs-number">1</span>
+</code></pre>
+<p>&#x66F4;&#x7B80;&#x5355;&#x7684;&#x5199;&#x6CD5;</p>
+<pre><code class="lang-Go">ages[<span class="hljs-string">&quot;bob&quot;</span>]++
+</code></pre>
+<p>&#x4F46;&#x662F;map&#x4E2D;&#x7684;&#x5143;&#x7D20;&#x5E76;&#x4E0D;&#x662F;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;&#xFF0C;&#x56E0;&#x6B64;&#x6211;&#x4EEC;&#x4E0D;&#x80FD;&#x5BF9;map&#x7684;&#x5143;&#x7D20;&#x8FDB;&#x884C;&#x53D6;&#x5740;&#x64CD;&#x4F5C;&#xFF1A;</p>
+<pre><code class="lang-Go">_ = &amp;ages[<span class="hljs-string">&quot;bob&quot;</span>] <span class="hljs-comment">// compile error: cannot take address of map element</span>
+</code></pre>
+<p>&#x7981;&#x6B62;&#x5BF9;map&#x5143;&#x7D20;&#x53D6;&#x5740;&#x7684;&#x539F;&#x56E0;&#x662F;map&#x53EF;&#x80FD;&#x968F;&#x7740;&#x5143;&#x7D20;&#x6570;&#x91CF;&#x7684;&#x589E;&#x957F;&#x800C;&#x91CD;&#x65B0;&#x5206;&#x914D;&#x66F4;&#x5927;&#x7684;&#x5185;&#x5B58;&#x7A7A;&#x95F4;&#xFF0C;&#x4ECE;&#x800C;&#x53EF;&#x80FD;&#x5BFC;&#x81F4;&#x4E4B;&#x524D;&#x7684;&#x5730;&#x5740;&#x65E0;&#x6548;&#x3002;</p>
+<p>&#x8981;&#x60F3;&#x904D;&#x5386;map&#x4E2D;&#x5168;&#x90E8;&#x7684;key/value&#x5BF9;&#x7684;&#x8BDD;&#xFF0C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;range&#x98CE;&#x683C;&#x7684;for&#x5FAA;&#x73AF;&#x5B9E;&#x73B0;&#xFF0C;&#x548C;&#x4E4B;&#x524D;&#x7684;slice&#x904D;&#x5386;&#x8BED;&#x6CD5;&#x7C7B;&#x4F3C;&#x3002;&#x4E0B;&#x9762;&#x7684;&#x8FED;&#x4EE3;&#x8BED;&#x53E5;&#x5C06;&#x5728;&#x6BCF;&#x6B21;&#x8FED;&#x4EE3;&#x65F6;&#x8BBE;&#x7F6E;name&#x548C;age&#x53D8;&#x91CF;&#xFF0C;&#x5B83;&#x4EEC;&#x5BF9;&#x5E94;&#x4E0B;&#x4E00;&#x4E2A;&#x952E;/&#x503C;&#x5BF9;&#xFF1A;</p>
+<pre><code class="lang-Go"><span class="hljs-keyword">for</span> name, age := <span class="hljs-keyword">range</span> ages {
+    fmt.Printf(<span class="hljs-string">&quot;%s\t%d\n&quot;</span>, name, age)
+}
+</code></pre>
+<p>Map&#x7684;&#x8FED;&#x4EE3;&#x987A;&#x5E8F;&#x662F;&#x4E0D;&#x786E;&#x5B9A;&#x7684;&#xFF0C;&#x5E76;&#x4E14;&#x4E0D;&#x540C;&#x7684;&#x54C8;&#x5E0C;&#x51FD;&#x6570;&#x5B9E;&#x73B0;&#x53EF;&#x80FD;&#x5BFC;&#x81F4;&#x4E0D;&#x540C;&#x7684;&#x904D;&#x5386;&#x987A;&#x5E8F;&#x3002;&#x5728;&#x5B9E;&#x8DF5;&#x4E2D;&#xFF0C;&#x904D;&#x5386;&#x7684;&#x987A;&#x5E8F;&#x662F;&#x968F;&#x673A;&#x7684;&#xFF0C;&#x6BCF;&#x4E00;&#x6B21;&#x904D;&#x5386;&#x7684;&#x987A;&#x5E8F;&#x90FD;&#x4E0D;&#x76F8;&#x540C;&#x3002;&#x8FD9;&#x662F;&#x6545;&#x610F;&#x7684;&#xFF0C;&#x6BCF;&#x6B21;&#x90FD;&#x4F7F;&#x7528;&#x968F;&#x673A;&#x7684;&#x904D;&#x5386;&#x987A;&#x5E8F;&#x53EF;&#x4EE5;&#x5F3A;&#x5236;&#x8981;&#x6C42;&#x7A0B;&#x5E8F;&#x4E0D;&#x4F1A;&#x4F9D;&#x8D56;&#x5177;&#x4F53;&#x7684;&#x54C8;&#x5E0C;&#x51FD;&#x6570;&#x5B9E;&#x73B0;&#x3002;&#x5982;&#x679C;&#x8981;&#x6309;&#x987A;&#x5E8F;&#x904D;&#x5386;key/value&#x5BF9;&#xFF0C;&#x6211;&#x4EEC;&#x5FC5;&#x987B;&#x663E;&#x5F0F;&#x5730;&#x5BF9;key&#x8FDB;&#x884C;&#x6392;&#x5E8F;&#xFF0C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;sort&#x5305;&#x7684;Strings&#x51FD;&#x6570;&#x5BF9;&#x5B57;&#x7B26;&#x4E32;slice&#x8FDB;&#x884C;&#x6392;&#x5E8F;&#x3002;&#x4E0B;&#x9762;&#x662F;&#x5E38;&#x89C1;&#x7684;&#x5904;&#x7406;&#x65B9;&#x5F0F;&#xFF1A;</p>
+<pre><code class="lang-Go"><span class="hljs-keyword">import</span> <span class="hljs-string">&quot;sort&quot;</span>
+
+<span class="hljs-keyword">var</span> names []<span class="hljs-keyword">string</span>
+<span class="hljs-keyword">for</span> name := <span class="hljs-keyword">range</span> ages {
+    names = <span class="hljs-built_in">append</span>(names, name)
+}
+sort.Strings(names)
+<span class="hljs-keyword">for</span> _, name := <span class="hljs-keyword">range</span> names {
+    fmt.Printf(<span class="hljs-string">&quot;%s\t%d\n&quot;</span>, name, ages[name])
+}
+</code></pre>
+<p>&#x56E0;&#x4E3A;&#x6211;&#x4EEC;&#x4E00;&#x5F00;&#x59CB;&#x5C31;&#x77E5;&#x9053;names&#x7684;&#x6700;&#x7EC8;&#x5927;&#x5C0F;&#xFF0C;&#x56E0;&#x6B64;&#x7ED9;slice&#x5206;&#x914D;&#x4E00;&#x4E2A;&#x5408;&#x9002;&#x7684;&#x5927;&#x5C0F;&#x5C06;&#x4F1A;&#x66F4;&#x6709;&#x6548;&#x3002;&#x4E0B;&#x9762;&#x7684;&#x4EE3;&#x7801;&#x521B;&#x5EFA;&#x4E86;&#x4E00;&#x4E2A;&#x7A7A;&#x7684;slice&#xFF0C;&#x4F46;&#x662F;slice&#x7684;&#x5BB9;&#x91CF;&#x521A;&#x597D;&#x53EF;&#x4EE5;&#x653E;&#x4E0B;map&#x4E2D;&#x5168;&#x90E8;&#x7684;key&#xFF1A;</p>
+<pre><code class="lang-Go">names := <span class="hljs-built_in">make</span>([]<span class="hljs-keyword">string</span>, <span class="hljs-number">0</span>, <span class="hljs-built_in">len</span>(ages))
+</code></pre>
+<p>&#x5728;&#x4E0A;&#x9762;&#x7684;&#x7B2C;&#x4E00;&#x4E2A;range&#x5FAA;&#x73AF;&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x53EA;&#x5173;&#x5FC3;map&#x4E2D;&#x7684;key&#xFF0C;&#x6240;&#x4EE5;&#x6211;&#x4EEC;&#x5FFD;&#x7565;&#x4E86;&#x7B2C;&#x4E8C;&#x4E2A;&#x5FAA;&#x73AF;&#x53D8;&#x91CF;&#x3002;&#x5728;&#x7B2C;&#x4E8C;&#x4E2A;&#x5FAA;&#x73AF;&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x53EA;&#x5173;&#x5FC3;names&#x4E2D;&#x7684;&#x540D;&#x5B57;&#xFF0C;&#x6240;&#x4EE5;&#x6211;&#x4EEC;&#x4F7F;&#x7528;&#x201C;_&#x201D;&#x7A7A;&#x767D;&#x6807;&#x8BC6;&#x7B26;&#x6765;&#x5FFD;&#x7565;&#x7B2C;&#x4E00;&#x4E2A;&#x5FAA;&#x73AF;&#x53D8;&#x91CF;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x8FED;&#x4EE3;slice&#x65F6;&#x7684;&#x7D22;&#x5F15;&#x3002;</p>
+<p>map&#x7C7B;&#x578B;&#x7684;&#x96F6;&#x503C;&#x662F;nil&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x6CA1;&#x6709;&#x5F15;&#x7528;&#x4EFB;&#x4F55;&#x54C8;&#x5E0C;&#x8868;&#x3002;</p>
+<pre><code class="lang-Go"><span class="hljs-keyword">var</span> ages <span class="hljs-keyword">map</span>[<span class="hljs-keyword">string</span>]<span class="hljs-keyword">int</span>
+fmt.Println(ages == <span class="hljs-literal">nil</span>)    <span class="hljs-comment">// &quot;true&quot;</span>
+fmt.Println(<span class="hljs-built_in">len</span>(ages) == <span class="hljs-number">0</span>) <span class="hljs-comment">// &quot;true&quot;</span>
+</code></pre>
+<p>map&#x4E0A;&#x7684;&#x5927;&#x90E8;&#x5206;&#x64CD;&#x4F5C;&#xFF0C;&#x5305;&#x62EC;&#x67E5;&#x627E;&#x3001;&#x5220;&#x9664;&#x3001;len&#x548C;range&#x5FAA;&#x73AF;&#x90FD;&#x53EF;&#x4EE5;&#x5B89;&#x5168;&#x5DE5;&#x4F5C;&#x5728;nil&#x503C;&#x7684;map&#x4E0A;&#xFF0C;&#x5B83;&#x4EEC;&#x7684;&#x884C;&#x4E3A;&#x548C;&#x4E00;&#x4E2A;&#x7A7A;&#x7684;map&#x7C7B;&#x4F3C;&#x3002;&#x4F46;&#x662F;&#x5411;&#x4E00;&#x4E2A;nil&#x503C;&#x7684;map&#x5B58;&#x5165;&#x5143;&#x7D20;&#x5C06;&#x5BFC;&#x81F4;&#x4E00;&#x4E2A;panic&#x5F02;&#x5E38;&#xFF1A;</p>
+<pre><code class="lang-Go">ages[<span class="hljs-string">&quot;carol&quot;</span>] = <span class="hljs-number">21</span> <span class="hljs-comment">// panic: assignment to entry in nil map</span>
+</code></pre>
+<p>&#x5728;&#x5411;map&#x5B58;&#x6570;&#x636E;&#x524D;&#x5FC5;&#x987B;&#x5148;&#x521B;&#x5EFA;map&#x3002;</p>
+<p>&#x901A;&#x8FC7;key&#x4F5C;&#x4E3A;&#x7D22;&#x5F15;&#x4E0B;&#x6807;&#x6765;&#x8BBF;&#x95EE;map&#x5C06;&#x4EA7;&#x751F;&#x4E00;&#x4E2A;value&#x3002;&#x5982;&#x679C;key&#x5728;map&#x4E2D;&#x662F;&#x5B58;&#x5728;&#x7684;&#xFF0C;&#x90A3;&#x4E48;&#x5C06;&#x5F97;&#x5230;&#x4E0E;key&#x5BF9;&#x5E94;&#x7684;value&#xFF1B;&#x5982;&#x679C;key&#x4E0D;&#x5B58;&#x5728;&#xFF0C;&#x90A3;&#x4E48;&#x5C06;&#x5F97;&#x5230;value&#x5BF9;&#x5E94;&#x7C7B;&#x578B;&#x7684;&#x96F6;&#x503C;&#xFF0C;&#x6B63;&#x5982;&#x6211;&#x4EEC;&#x524D;&#x9762;&#x770B;&#x5230;&#x7684;ages[&quot;bob&quot;]&#x90A3;&#x6837;&#x3002;&#x8FD9;&#x4E2A;&#x89C4;&#x5219;&#x5F88;&#x5B9E;&#x7528;&#xFF0C;&#x4F46;&#x662F;&#x6709;&#x65F6;&#x5019;&#x53EF;&#x80FD;&#x9700;&#x8981;&#x77E5;&#x9053;&#x5BF9;&#x5E94;&#x7684;&#x5143;&#x7D20;&#x662F;&#x5426;&#x771F;&#x7684;&#x662F;&#x5728;map&#x4E4B;&#x4E2D;&#x3002;&#x4F8B;&#x5982;&#xFF0C;&#x5982;&#x679C;&#x5143;&#x7D20;&#x7C7B;&#x578B;&#x662F;&#x4E00;&#x4E2A;&#x6570;&#x5B57;&#xFF0C;&#x4F60;&#x53EF;&#x80FD;&#x9700;&#x8981;&#x533A;&#x5206;&#x4E00;&#x4E2A;&#x5DF2;&#x7ECF;&#x5B58;&#x5728;&#x7684;0&#xFF0C;&#x548C;&#x4E0D;&#x5B58;&#x5728;&#x800C;&#x8FD4;&#x56DE;&#x96F6;&#x503C;&#x7684;0&#xFF0C;&#x53EF;&#x4EE5;&#x50CF;&#x4E0B;&#x9762;&#x8FD9;&#x6837;&#x6D4B;&#x8BD5;&#xFF1A;</p>
+<pre><code class="lang-Go">age, ok := ages[<span class="hljs-string">&quot;bob&quot;</span>]
+<span class="hljs-keyword">if</span> !ok { <span class="hljs-comment">/* &quot;bob&quot; is not a key in this map; age == 0. */</span> }
+</code></pre>
+<p>&#x4F60;&#x4F1A;&#x7ECF;&#x5E38;&#x770B;&#x5230;&#x5C06;&#x8FD9;&#x4E24;&#x4E2A;&#x7ED3;&#x5408;&#x8D77;&#x6765;&#x4F7F;&#x7528;&#xFF0C;&#x50CF;&#x8FD9;&#x6837;&#xFF1A;</p>
+<pre><code class="lang-Go"><span class="hljs-keyword">if</span> age, ok := ages[<span class="hljs-string">&quot;bob&quot;</span>]; !ok { <span class="hljs-comment">/* ... */</span> }
+</code></pre>
+<p>&#x5728;&#x8FD9;&#x79CD;&#x573A;&#x666F;&#x4E0B;&#xFF0C;map&#x7684;&#x4E0B;&#x6807;&#x8BED;&#x6CD5;&#x5C06;&#x4EA7;&#x751F;&#x4E24;&#x4E2A;&#x503C;&#xFF1B;&#x7B2C;&#x4E8C;&#x4E2A;&#x662F;&#x4E00;&#x4E2A;&#x5E03;&#x5C14;&#x503C;&#xFF0C;&#x7528;&#x4E8E;&#x62A5;&#x544A;&#x5143;&#x7D20;&#x662F;&#x5426;&#x771F;&#x7684;&#x5B58;&#x5728;&#x3002;&#x5E03;&#x5C14;&#x53D8;&#x91CF;&#x4E00;&#x822C;&#x547D;&#x540D;&#x4E3A;ok&#xFF0C;&#x7279;&#x522B;&#x9002;&#x5408;&#x9A6C;&#x4E0A;&#x7528;&#x4E8E;if&#x6761;&#x4EF6;&#x5224;&#x65AD;&#x90E8;&#x5206;&#x3002;</p>
+<p>&#x548C;slice&#x4E00;&#x6837;&#xFF0C;map&#x4E4B;&#x95F4;&#x4E5F;&#x4E0D;&#x80FD;&#x8FDB;&#x884C;&#x76F8;&#x7B49;&#x6BD4;&#x8F83;&#xFF1B;&#x552F;&#x4E00;&#x7684;&#x4F8B;&#x5916;&#x662F;&#x548C;nil&#x8FDB;&#x884C;&#x6BD4;&#x8F83;&#x3002;&#x8981;&#x5224;&#x65AD;&#x4E24;&#x4E2A;map&#x662F;&#x5426;&#x5305;&#x542B;&#x76F8;&#x540C;&#x7684;key&#x548C;value&#xFF0C;&#x6211;&#x4EEC;&#x5FC5;&#x987B;&#x901A;&#x8FC7;&#x4E00;&#x4E2A;&#x5FAA;&#x73AF;&#x5B9E;&#x73B0;&#xFF1A;</p>
+<pre><code class="lang-Go"><span class="hljs-keyword">func</span> equal(x, y <span class="hljs-keyword">map</span>[<span class="hljs-keyword">string</span>]<span class="hljs-keyword">int</span>) <span class="hljs-keyword">bool</span> {
+    <span class="hljs-keyword">if</span> <span class="hljs-built_in">len</span>(x) != <span class="hljs-built_in">len</span>(y) {
+        <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>
+    }
+    <span class="hljs-keyword">for</span> k, xv := <span class="hljs-keyword">range</span> x {
+        <span class="hljs-keyword">if</span> yv, ok := y[k]; !ok || yv != xv {
+            <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>
+        }
+    }
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>
+}
+</code></pre>
+<p>&#x4ECE;&#x4F8B;&#x5B50;&#x4E2D;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x5982;&#x4F55;&#x7528;!ok&#x6765;&#x533A;&#x5206;&#x5143;&#x7D20;&#x4E0D;&#x5B58;&#x5728;&#xFF0C;&#x4E0E;&#x5143;&#x7D20;&#x5B58;&#x5728;&#x4F46;&#x4E3A;0&#x7684;&#x3002;&#x6211;&#x4EEC;&#x4E0D;&#x80FD;&#x7B80;&#x5355;&#x5730;&#x7528;xv != y[k]&#x5224;&#x65AD;&#xFF0C;&#x90A3;&#x6837;&#x4F1A;&#x5BFC;&#x81F4;&#x5728;&#x5224;&#x65AD;&#x4E0B;&#x9762;&#x4E24;&#x4E2A;map&#x65F6;&#x4EA7;&#x751F;&#x9519;&#x8BEF;&#x7684;&#x7ED3;&#x679C;&#xFF1A;</p>
+<pre><code class="lang-Go"><span class="hljs-comment">// True if equal is written incorrectly.</span>
+equal(<span class="hljs-keyword">map</span>[<span class="hljs-keyword">string</span>]<span class="hljs-keyword">int</span>{<span class="hljs-string">&quot;A&quot;</span>: <span class="hljs-number">0</span>}, <span class="hljs-keyword">map</span>[<span class="hljs-keyword">string</span>]<span class="hljs-keyword">int</span>{<span class="hljs-string">&quot;B&quot;</span>: <span class="hljs-number">42</span>})
+</code></pre>
+<p>Go&#x8BED;&#x8A00;&#x4E2D;&#x5E76;&#x6CA1;&#x6709;&#x63D0;&#x4F9B;&#x4E00;&#x4E2A;set&#x7C7B;&#x578B;&#xFF0C;&#x4F46;&#x662F;map&#x4E2D;&#x7684;key&#x4E5F;&#x662F;&#x4E0D;&#x76F8;&#x540C;&#x7684;&#xFF0C;&#x53EF;&#x4EE5;&#x7528;map&#x5B9E;&#x73B0;&#x7C7B;&#x4F3C;set&#x7684;&#x529F;&#x80FD;&#x3002;&#x4E3A;&#x4E86;&#x8BF4;&#x660E;&#x8FD9;&#x4E00;&#x70B9;&#xFF0C;&#x4E0B;&#x9762;&#x7684;dedup&#x7A0B;&#x5E8F;&#x8BFB;&#x53D6;&#x591A;&#x884C;&#x8F93;&#x5165;&#xFF0C;&#x4F46;&#x662F;&#x53EA;&#x6253;&#x5370;&#x7B2C;&#x4E00;&#x6B21;&#x51FA;&#x73B0;&#x7684;&#x884C;&#x3002;&#xFF08;&#x5B83;&#x662F;1.3&#x8282;&#x4E2D;&#x51FA;&#x73B0;&#x7684;dup&#x7A0B;&#x5E8F;&#x7684;&#x53D8;&#x4F53;&#x3002;&#xFF09;dedup&#x7A0B;&#x5E8F;&#x901A;&#x8FC7;map&#x6765;&#x8868;&#x793A;&#x6240;&#x6709;&#x7684;&#x8F93;&#x5165;&#x884C;&#x6240;&#x5BF9;&#x5E94;&#x7684;set&#x96C6;&#x5408;&#xFF0C;&#x4EE5;&#x786E;&#x4FDD;&#x5DF2;&#x7ECF;&#x5728;&#x96C6;&#x5408;&#x5B58;&#x5728;&#x7684;&#x884C;&#x4E0D;&#x4F1A;&#x88AB;&#x91CD;&#x590D;&#x6253;&#x5370;&#x3002;</p>
+<p><u><i>gopl.io/ch4/dedup</i></u></p>
+<pre><code class="lang-Go"><span class="hljs-keyword">func</span> main() {
+    seen := <span class="hljs-built_in">make</span>(<span class="hljs-keyword">map</span>[<span class="hljs-keyword">string</span>]<span class="hljs-keyword">bool</span>) <span class="hljs-comment">// a set of strings</span>
+    input := bufio.NewScanner(os.Stdin)
+    <span class="hljs-keyword">for</span> input.Scan() {
+        line := input.Text()
+        <span class="hljs-keyword">if</span> !seen[line] {
+            seen[line] = <span class="hljs-literal">true</span>
+            fmt.Println(line)
+        }
+    }
+
+    <span class="hljs-keyword">if</span> err := input.Err(); err != <span class="hljs-literal">nil</span> {
+        fmt.Fprintf(os.Stderr, <span class="hljs-string">&quot;dedup: %v\n&quot;</span>, err)
+        os.Exit(<span class="hljs-number">1</span>)
+    }
+}
+</code></pre>
+<p>Go&#x7A0B;&#x5E8F;&#x5458;&#x5C06;&#x8FD9;&#x79CD;&#x5FFD;&#x7565;value&#x7684;map&#x5F53;&#x4F5C;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x96C6;&#x5408;&#xFF0C;&#x5E76;&#x975E;&#x6240;&#x6709;<code>map[string]bool</code>&#x7C7B;&#x578B;value&#x90FD;&#x662F;&#x65E0;&#x5173;&#x7D27;&#x8981;&#x7684;&#xFF1B;&#x6709;&#x4E00;&#x4E9B;&#x5219;&#x53EF;&#x80FD;&#x4F1A;&#x540C;&#x65F6;&#x5305;&#x542B;true&#x548C;false&#x7684;&#x503C;&#x3002;</p>
+<p>&#x6709;&#x65F6;&#x5019;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x4E00;&#x4E2A;map&#x6216;set&#x7684;key&#x662F;slice&#x7C7B;&#x578B;&#xFF0C;&#x4F46;&#x662F;map&#x7684;key&#x5FC5;&#x987B;&#x662F;&#x53EF;&#x6BD4;&#x8F83;&#x7684;&#x7C7B;&#x578B;&#xFF0C;&#x4F46;&#x662F;slice&#x5E76;&#x4E0D;&#x6EE1;&#x8DB3;&#x8FD9;&#x4E2A;&#x6761;&#x4EF6;&#x3002;&#x4E0D;&#x8FC7;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4E24;&#x4E2A;&#x6B65;&#x9AA4;&#x7ED5;&#x8FC7;&#x8FD9;&#x4E2A;&#x9650;&#x5236;&#x3002;&#x7B2C;&#x4E00;&#x6B65;&#xFF0C;&#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x8F85;&#x52A9;&#x51FD;&#x6570;k&#xFF0C;&#x5C06;slice&#x8F6C;&#x4E3A;map&#x5BF9;&#x5E94;&#x7684;string&#x7C7B;&#x578B;&#x7684;key&#xFF0C;&#x786E;&#x4FDD;&#x53EA;&#x6709;x&#x548C;y&#x76F8;&#x7B49;&#x65F6;k(x) == k(y)&#x624D;&#x6210;&#x7ACB;&#x3002;&#x7136;&#x540E;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;key&#x4E3A;string&#x7C7B;&#x578B;&#x7684;map&#xFF0C;&#x5728;&#x6BCF;&#x6B21;&#x5BF9;map&#x64CD;&#x4F5C;&#x65F6;&#x5148;&#x7528;k&#x8F85;&#x52A9;&#x51FD;&#x6570;&#x5C06;slice&#x8F6C;&#x5316;&#x4E3A;string&#x7C7B;&#x578B;&#x3002;</p>
+<p>&#x4E0B;&#x9762;&#x7684;&#x4F8B;&#x5B50;&#x6F14;&#x793A;&#x4E86;&#x5982;&#x4F55;&#x4F7F;&#x7528;map&#x6765;&#x8BB0;&#x5F55;&#x63D0;&#x4EA4;&#x76F8;&#x540C;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x5217;&#x8868;&#x7684;&#x6B21;&#x6570;&#x3002;&#x5B83;&#x4F7F;&#x7528;&#x4E86;fmt.Sprintf&#x51FD;&#x6570;&#x5C06;&#x5B57;&#x7B26;&#x4E32;&#x5217;&#x8868;&#x8F6C;&#x6362;&#x4E3A;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x4EE5;&#x7528;&#x4E8E;map&#x7684;key&#xFF0C;&#x901A;&#x8FC7;%q&#x53C2;&#x6570;&#x5FE0;&#x5B9E;&#x5730;&#x8BB0;&#x5F55;&#x6BCF;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x5143;&#x7D20;&#x7684;&#x4FE1;&#x606F;&#xFF1A;</p>
+<pre><code class="lang-Go"><span class="hljs-keyword">var</span> m = <span class="hljs-built_in">make</span>(<span class="hljs-keyword">map</span>[<span class="hljs-keyword">string</span>]<span class="hljs-keyword">int</span>)
+
+<span class="hljs-keyword">func</span> k(list []<span class="hljs-keyword">string</span>) <span class="hljs-keyword">string</span> { <span class="hljs-keyword">return</span> fmt.Sprintf(<span class="hljs-string">&quot;%q&quot;</span>, list) }
+
+<span class="hljs-keyword">func</span> Add(list []<span class="hljs-keyword">string</span>)       { m[k(list)]++ }
+<span class="hljs-keyword">func</span> Count(list []<span class="hljs-keyword">string</span>) <span class="hljs-keyword">int</span> { <span class="hljs-keyword">return</span> m[k(list)] }
+</code></pre>
+<p>&#x4F7F;&#x7528;&#x540C;&#x6837;&#x7684;&#x6280;&#x672F;&#x53EF;&#x4EE5;&#x5904;&#x7406;&#x4EFB;&#x4F55;&#x4E0D;&#x53EF;&#x6BD4;&#x8F83;&#x7684;key&#x7C7B;&#x578B;&#xFF0C;&#x800C;&#x4E0D;&#x4EC5;&#x4EC5;&#x662F;slice&#x7C7B;&#x578B;&#x3002;&#x8FD9;&#x79CD;&#x6280;&#x672F;&#x5BF9;&#x4E8E;&#x60F3;&#x4F7F;&#x7528;&#x81EA;&#x5B9A;&#x4E49;key&#x6BD4;&#x8F83;&#x51FD;&#x6570;&#x7684;&#x65F6;&#x5019;&#x4E5F;&#x5F88;&#x6709;&#x7528;&#xFF0C;&#x4F8B;&#x5982;&#x5728;&#x6BD4;&#x8F83;&#x5B57;&#x7B26;&#x4E32;&#x7684;&#x65F6;&#x5019;&#x5FFD;&#x7565;&#x5927;&#x5C0F;&#x5199;&#x3002;&#x540C;&#x65F6;&#xFF0C;&#x8F85;&#x52A9;&#x51FD;&#x6570;k(x)&#x4E5F;&#x4E0D;&#x4E00;&#x5B9A;&#x662F;&#x5B57;&#x7B26;&#x4E32;&#x7C7B;&#x578B;&#xFF0C;&#x5B83;&#x53EF;&#x4EE5;&#x8FD4;&#x56DE;&#x4EFB;&#x4F55;&#x53EF;&#x6BD4;&#x8F83;&#x7684;&#x7C7B;&#x578B;&#xFF0C;&#x4F8B;&#x5982;&#x6574;&#x6570;&#x3001;&#x6570;&#x7EC4;&#x6216;&#x7ED3;&#x6784;&#x4F53;&#x7B49;&#x3002;</p>
+<p>&#x8FD9;&#x662F;map&#x7684;&#x53E6;&#x4E00;&#x4E2A;&#x4F8B;&#x5B50;&#xFF0C;&#x4E0B;&#x9762;&#x7684;&#x7A0B;&#x5E8F;&#x7528;&#x4E8E;&#x7EDF;&#x8BA1;&#x8F93;&#x5165;&#x4E2D;&#x6BCF;&#x4E2A;Unicode&#x7801;&#x70B9;&#x51FA;&#x73B0;&#x7684;&#x6B21;&#x6570;&#x3002;&#x867D;&#x7136;Unicode&#x5168;&#x90E8;&#x7801;&#x70B9;&#x7684;&#x6570;&#x91CF;&#x5DE8;&#x5927;&#xFF0C;&#x4F46;&#x662F;&#x51FA;&#x73B0;&#x5728;&#x7279;&#x5B9A;&#x6587;&#x6863;&#x4E2D;&#x7684;&#x5B57;&#x7B26;&#x79CD;&#x7C7B;&#x5E76;&#x6CA1;&#x6709;&#x591A;&#x5C11;&#xFF0C;&#x4F7F;&#x7528;map&#x53EF;&#x4EE5;&#x7528;&#x6BD4;&#x8F83;&#x81EA;&#x7136;&#x7684;&#x65B9;&#x5F0F;&#x6765;&#x8DDF;&#x8E2A;&#x90A3;&#x4E9B;&#x51FA;&#x73B0;&#x8FC7;&#x7684;&#x5B57;&#x7B26;&#x7684;&#x6B21;&#x6570;&#x3002;</p>
+<p><u><i>gopl.io/ch4/charcount</i></u></p>
+<pre><code class="lang-Go"><span class="hljs-comment">// Charcount computes counts of Unicode characters.</span>
+<span class="hljs-keyword">package</span> main
+
+<span class="hljs-keyword">import</span> (
+    <span class="hljs-string">&quot;bufio&quot;</span>
+    <span class="hljs-string">&quot;fmt&quot;</span>
+    <span class="hljs-string">&quot;io&quot;</span>
+    <span class="hljs-string">&quot;os&quot;</span>
+    <span class="hljs-string">&quot;unicode&quot;</span>
+    <span class="hljs-string">&quot;unicode/utf8&quot;</span>
+)
+
+<span class="hljs-keyword">func</span> main() {
+    counts := <span class="hljs-built_in">make</span>(<span class="hljs-keyword">map</span>[<span class="hljs-keyword">rune</span>]<span class="hljs-keyword">int</span>)    <span class="hljs-comment">// counts of Unicode characters</span>
+    <span class="hljs-keyword">var</span> utflen [utf8.UTFMax + <span class="hljs-number">1</span>]<span class="hljs-keyword">int</span> <span class="hljs-comment">// count of lengths of UTF-8 encodings</span>
+    invalid := <span class="hljs-number">0</span>                    <span class="hljs-comment">// count of invalid UTF-8 characters</span>
+
+    in := bufio.NewReader(os.Stdin)
+    <span class="hljs-keyword">for</span> {
+        r, n, err := in.ReadRune() <span class="hljs-comment">// returns rune, nbytes, error</span>
+        <span class="hljs-keyword">if</span> err == io.EOF {
+            <span class="hljs-keyword">break</span>
+        }
+        <span class="hljs-keyword">if</span> err != <span class="hljs-literal">nil</span> {
+            fmt.Fprintf(os.Stderr, <span class="hljs-string">&quot;charcount: %v\n&quot;</span>, err)
+            os.Exit(<span class="hljs-number">1</span>)
+        }
+        <span class="hljs-keyword">if</span> r == unicode.ReplacementChar &amp;&amp; n == <span class="hljs-number">1</span> {
+            invalid++
+            <span class="hljs-keyword">continue</span>
+        }
+        counts[r]++
+        utflen[n]++
+    }
+    fmt.Printf(<span class="hljs-string">&quot;rune\tcount\n&quot;</span>)
+    <span class="hljs-keyword">for</span> c, n := <span class="hljs-keyword">range</span> counts {
+        fmt.Printf(<span class="hljs-string">&quot;%q\t%d\n&quot;</span>, c, n)
+    }
+    fmt.Print(<span class="hljs-string">&quot;\nlen\tcount\n&quot;</span>)
+    <span class="hljs-keyword">for</span> i, n := <span class="hljs-keyword">range</span> utflen {
+        <span class="hljs-keyword">if</span> i &gt; <span class="hljs-number">0</span> {
+            fmt.Printf(<span class="hljs-string">&quot;%d\t%d\n&quot;</span>, i, n)
+        }
+    }
+    <span class="hljs-keyword">if</span> invalid &gt; <span class="hljs-number">0</span> {
+        fmt.Printf(<span class="hljs-string">&quot;\n%d invalid UTF-8 characters\n&quot;</span>, invalid)
+    }
+}
+</code></pre>
+<p>ReadRune&#x65B9;&#x6CD5;&#x6267;&#x884C;UTF-8&#x89E3;&#x7801;&#x5E76;&#x8FD4;&#x56DE;&#x4E09;&#x4E2A;&#x503C;&#xFF1A;&#x89E3;&#x7801;&#x7684;rune&#x5B57;&#x7B26;&#x7684;&#x503C;&#xFF0C;&#x5B57;&#x7B26;UTF-8&#x7F16;&#x7801;&#x540E;&#x7684;&#x957F;&#x5EA6;&#xFF0C;&#x548C;&#x4E00;&#x4E2A;&#x9519;&#x8BEF;&#x503C;&#x3002;&#x6211;&#x4EEC;&#x53EF;&#x9884;&#x671F;&#x7684;&#x9519;&#x8BEF;&#x503C;&#x53EA;&#x6709;&#x5BF9;&#x5E94;&#x6587;&#x4EF6;&#x7ED3;&#x5C3E;&#x7684;io.EOF&#x3002;&#x5982;&#x679C;&#x8F93;&#x5165;&#x7684;&#x662F;&#x65E0;&#x6548;&#x7684;UTF-8&#x7F16;&#x7801;&#x7684;&#x5B57;&#x7B26;&#xFF0C;&#x8FD4;&#x56DE;&#x7684;&#x5C06;&#x662F;unicode.ReplacementChar&#x8868;&#x793A;&#x65E0;&#x6548;&#x5B57;&#x7B26;&#xFF0C;&#x5E76;&#x4E14;&#x7F16;&#x7801;&#x957F;&#x5EA6;&#x662F;1&#x3002;</p>
+<p>charcount&#x7A0B;&#x5E8F;&#x540C;&#x65F6;&#x6253;&#x5370;&#x4E0D;&#x540C;UTF-8&#x7F16;&#x7801;&#x957F;&#x5EA6;&#x7684;&#x5B57;&#x7B26;&#x6570;&#x76EE;&#x3002;&#x5BF9;&#x6B64;&#xFF0C;map&#x5E76;&#x4E0D;&#x662F;&#x4E00;&#x4E2A;&#x5408;&#x9002;&#x7684;&#x6570;&#x636E;&#x7ED3;&#x6784;&#xFF1B;&#x56E0;&#x4E3A;UTF-8&#x7F16;&#x7801;&#x7684;&#x957F;&#x5EA6;&#x603B;&#x662F;&#x4ECE;1&#x5230;utf8.UTFMax&#xFF08;&#x6700;&#x5927;&#x662F;4&#x4E2A;&#x5B57;&#x8282;&#xFF09;&#xFF0C;&#x4F7F;&#x7528;&#x6570;&#x7EC4;&#x5C06;&#x66F4;&#x6709;&#x6548;&#x3002;</p>
+<p>&#x4F5C;&#x4E3A;&#x4E00;&#x4E2A;&#x5B9E;&#x9A8C;&#xFF0C;&#x6211;&#x4EEC;&#x7528;charcount&#x7A0B;&#x5E8F;&#x5BF9;&#x82F1;&#x6587;&#x7248;&#x539F;&#x7A3F;&#x7684;&#x5B57;&#x7B26;&#x8FDB;&#x884C;&#x4E86;&#x7EDF;&#x8BA1;&#x3002;&#x867D;&#x7136;&#x5927;&#x90E8;&#x5206;&#x662F;&#x82F1;&#x8BED;&#xFF0C;&#x4F46;&#x662F;&#x4E5F;&#x6709;&#x4E00;&#x4E9B;&#x975E;ASCII&#x5B57;&#x7B26;&#x3002;&#x4E0B;&#x9762;&#x662F;&#x6392;&#x540D;&#x524D;10&#x7684;&#x975E;ASCII&#x5B57;&#x7B26;&#xFF1A;</p>
+<p><img src="../images/ch4-xx-01.png" alt=""></p>
+<p>&#x4E0B;&#x9762;&#x662F;&#x4E0D;&#x540C;UTF-8&#x7F16;&#x7801;&#x957F;&#x5EA6;&#x7684;&#x5B57;&#x7B26;&#x7684;&#x6570;&#x76EE;&#xFF1A;</p>
+<pre><code>len count
+1   765391
+2   60
+3   70
+4   0
+</code></pre><p>Map&#x7684;value&#x7C7B;&#x578B;&#x4E5F;&#x53EF;&#x4EE5;&#x662F;&#x4E00;&#x4E2A;&#x805A;&#x5408;&#x7C7B;&#x578B;&#xFF0C;&#x6BD4;&#x5982;&#x662F;&#x4E00;&#x4E2A;map&#x6216;slice&#x3002;&#x5728;&#x4E0B;&#x9762;&#x7684;&#x4EE3;&#x7801;&#x4E2D;&#xFF0C;&#x56FE;graph&#x7684;key&#x7C7B;&#x578B;&#x662F;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;value&#x7C7B;&#x578B;map[string]bool&#x4EE3;&#x8868;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x96C6;&#x5408;&#x3002;&#x4ECE;&#x6982;&#x5FF5;&#x4E0A;&#x8BB2;&#xFF0C;graph&#x5C06;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x7C7B;&#x578B;&#x7684;key&#x6620;&#x5C04;&#x5230;&#x4E00;&#x7EC4;&#x76F8;&#x5173;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x96C6;&#x5408;&#xFF0C;&#x5B83;&#x4EEC;&#x6307;&#x5411;&#x65B0;&#x7684;graph&#x7684;key&#x3002;</p>
+<p><u><i>gopl.io/ch4/graph</i></u></p>
+<pre><code class="lang-Go"><span class="hljs-keyword">var</span> graph = <span class="hljs-built_in">make</span>(<span class="hljs-keyword">map</span>[<span class="hljs-keyword">string</span>]<span class="hljs-keyword">map</span>[<span class="hljs-keyword">string</span>]<span class="hljs-keyword">bool</span>)
+
+<span class="hljs-keyword">func</span> addEdge(from, to <span class="hljs-keyword">string</span>) {
+    edges := graph[from]
+    <span class="hljs-keyword">if</span> edges == <span class="hljs-literal">nil</span> {
+        edges = <span class="hljs-built_in">make</span>(<span class="hljs-keyword">map</span>[<span class="hljs-keyword">string</span>]<span class="hljs-keyword">bool</span>)
+        graph[from] = edges
+    }
+    edges[to] = <span class="hljs-literal">true</span>
+}
+
+<span class="hljs-keyword">func</span> hasEdge(from, to <span class="hljs-keyword">string</span>) <span class="hljs-keyword">bool</span> {
+    <span class="hljs-keyword">return</span> graph[from][to]
+}
+</code></pre>
+<p>&#x5176;&#x4E2D;addEdge&#x51FD;&#x6570;&#x60F0;&#x6027;&#x521D;&#x59CB;&#x5316;map&#x662F;&#x4E00;&#x4E2A;&#x60EF;&#x7528;&#x65B9;&#x5F0F;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x8BF4;&#x5728;&#x6BCF;&#x4E2A;&#x503C;&#x9996;&#x6B21;&#x4F5C;&#x4E3A;key&#x65F6;&#x624D;&#x521D;&#x59CB;&#x5316;&#x3002;addEdge&#x51FD;&#x6570;&#x663E;&#x793A;&#x4E86;&#x5982;&#x4F55;&#x8BA9;map&#x7684;&#x96F6;&#x503C;&#x4E5F;&#x80FD;&#x6B63;&#x5E38;&#x5DE5;&#x4F5C;&#xFF1B;&#x5373;&#x4F7F;from&#x5230;to&#x7684;&#x8FB9;&#x4E0D;&#x5B58;&#x5728;&#xFF0C;graph[from][to]&#x4F9D;&#x7136;&#x53EF;&#x4EE5;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x6709;&#x610F;&#x4E49;&#x7684;&#x7ED3;&#x679C;&#x3002;</p>
+<p><strong>&#x7EC3;&#x4E60; 4.8&#xFF1A;</strong> &#x4FEE;&#x6539;charcount&#x7A0B;&#x5E8F;&#xFF0C;&#x4F7F;&#x7528;unicode.IsLetter&#x7B49;&#x76F8;&#x5173;&#x7684;&#x51FD;&#x6570;&#xFF0C;&#x7EDF;&#x8BA1;&#x5B57;&#x6BCD;&#x3001;&#x6570;&#x5B57;&#x7B49;Unicode&#x4E2D;&#x4E0D;&#x540C;&#x7684;&#x5B57;&#x7B26;&#x7C7B;&#x522B;&#x3002;</p>
+<p><strong>&#x7EC3;&#x4E60; 4.9&#xFF1A;</strong> &#x7F16;&#x5199;&#x4E00;&#x4E2A;&#x7A0B;&#x5E8F;wordfreq&#x7A0B;&#x5E8F;&#xFF0C;&#x62A5;&#x544A;&#x8F93;&#x5165;&#x6587;&#x672C;&#x4E2D;&#x6BCF;&#x4E2A;&#x5355;&#x8BCD;&#x51FA;&#x73B0;&#x7684;&#x9891;&#x7387;&#x3002;&#x5728;&#x7B2C;&#x4E00;&#x6B21;&#x8C03;&#x7528;Scan&#x524D;&#x5148;&#x8C03;&#x7528;input.Split(bufio.ScanWords)&#x51FD;&#x6570;&#xFF0C;&#x8FD9;&#x6837;&#x53EF;&#x4EE5;&#x6309;&#x5355;&#x8BCD;&#x800C;&#x4E0D;&#x662F;&#x6309;&#x884C;&#x8F93;&#x5165;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="ch4-02.html" class="navigation navigation-prev " aria-label="Previous page: Slice">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="ch4-04.html" class="navigation navigation-next " aria-label="Next page: 结构体">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Map","level":"1.3.5.3","depth":3,"next":{"title":"结构体","level":"1.3.5.4","depth":3,"path":"gopl/ch4/ch4-04.md","ref":"gopl/ch4/ch4-04.md","articles":[]},"previous":{"title":"Slice","level":"1.3.5.2","depth":3,"path":"gopl/ch4/ch4-02.md","ref":"gopl/ch4/ch4-02.md","articles":[]},"dir":"ltr"},"config":{"plugins":["ga","adsense"],"root":"./src/","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"ga":{"configuration":"auto","token":"UA-54964850-4"},"adsense":{"client":"ca-pub-9697944574373240","slot":"7015056060","format":"auto","element":".page-inner section","position":"top"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"吴浩麟","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"9787121331725","variables":{},"title":"Golang 学习资料","language":"zh-hans","gitbook":"*","description":""},"file":{"path":"gopl/ch4/ch4-03.md","mtime":"2017-12-14T15:31:18.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-07-12T11:55:34.215Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-adsense/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+
+    </body>
+</html>
+
