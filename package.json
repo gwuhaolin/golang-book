@@ -3,6 +3,6 @@
   "version": "0.0.1",
   "scripts": {
     "start": "gitbook",
-    "build": "gitbook build . docs"
+    "build": "gitbook build . docs && touch docs/CNAME && echo 'go.wuhaolin.cn' > docs/CNAME"
   }
 }
