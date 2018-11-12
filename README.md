@@ -1,9 +1,10 @@
 # [Golang 中文学习资料](http://go.wuhaolin.cn/)
-本书汇总了网上优质的开源 Golang 电子书，方便大家学习，涵盖以下三本书：
+本电子书汇总了网上优质的开源Golang电子书，以方便大家学习和快捷检索Golang相关知识，涵盖以下4本书：
 
 - [Go入门指南](http://go.wuhaolin.cn/the-way-to-go/)
 - [Go语言圣经](http://go.wuhaolin.cn/gopl/)
 - [Go Web 编程](http://go.wuhaolin.cn/build-web-application-with-golang/)
+- [Go语言高级编程](http://go.wuhaolin.cn/build-web-application-with-golang/)
 
 ## 推荐纸质书
 
