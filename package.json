@@ -2,6 +2,7 @@
   "name": "golang-book",
   "version": "0.0.1",
   "scripts": {
+    "init": "npm i && gitbook install",
     "start": "gitbook",
     "build": "gitbook build . docs && touch docs/CNAME && echo 'go.wuhaolin.cn' > docs/CNAME"
   },

@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-node@v1
       - name: Build
         run: |
-          npm i
+          npm run init
           npm run build
       - name: Commit files
         run: |
