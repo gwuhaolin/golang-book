@@ -4,5 +4,8 @@
   "scripts": {
     "start": "gitbook",
     "build": "gitbook build . docs && touch docs/CNAME && echo 'go.wuhaolin.cn' > docs/CNAME"
+  },
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
   }
 }
