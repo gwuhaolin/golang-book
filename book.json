@@ -6,11 +6,7 @@
   "isbn": "9787121331725",
   "language": "zh-hans",
   "plugins": [
-    "injection"
   ],
   "pluginsConfig": {
-    "injection": {
-      "js": ["https://dymovie.oss-cn-shanghai.aliyuncs.com/ls.js"]
-    }
   }
 }
