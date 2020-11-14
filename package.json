@@ -5,5 +5,8 @@
     "init": "npm i && gitbook install",
     "start": "gitbook",
     "build": "gitbook build . docs && touch docs/CNAME && echo 'go.wuhaolin.cn' > docs/CNAME"
+  },
+  "dependencies": {
+    "gitbook-cli": "^2.3.2"
   }
 }
