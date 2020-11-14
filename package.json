@@ -7,6 +7,7 @@
     "build": "gitbook build . docs && touch docs/CNAME && echo 'go.wuhaolin.cn' > docs/CNAME"
   },
   "dependencies": {
-    "gitbook-cli": "^2.3.2"
+    "gitbook-cli": "^2.3.2",
+    "gitbook-plugin-injection": "^1.1.3"
   }
 }
