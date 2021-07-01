@@ -6,11 +6,7 @@
   "isbn": "9787121331725",
   "language": "zh-hans",
   "plugins": [
-    "ga"
   ],
   "pluginsConfig": {
-    "ga": {
-      "token": "UA-54964850-4"
-    }
   }
 }
