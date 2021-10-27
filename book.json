@@ -9,9 +9,6 @@
     "adsense"
   ],
   "pluginsConfig": {
-    "ga": {
-      "token": "UA-54964850-4"
-    },
     "adsense": {
       "client": "ca-pub-9697944574373240",
       "slot": "7015056060",
