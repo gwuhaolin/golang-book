@@ -6,11 +6,18 @@
   "isbn": "9787121331725",
   "language": "zh-hans",
   "plugins": [
-    "ga"
+    "adsense"
   ],
   "pluginsConfig": {
     "ga": {
       "token": "UA-54964850-4"
+    },
+    "adsense": {
+      "client": "ca-pub-9697944574373240",
+      "slot": "7015056060",
+      "format": "auto",
+      "element": ".page-inner section",
+      "position": "top"
     }
   }
 }
